@@ -38,6 +38,8 @@ def _to_item(raw: Dict[str, Any]) -> Dict[str, Any]:
         "circulating_ratio_pct": _to_pct(derived.get("circulating_ratio_to_max")),
         "valuation_label": derived.get("valuation_label"),
         "liquidity_label": derived.get("liquidity_label"),
+        "valuation_note": derived.get("valuation_note"),
+        "valuation_proxy": metrics.get("valuation_proxy"),
         "last_updated": metrics.get("last_updated"),
     }
 
@@ -68,4 +70,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

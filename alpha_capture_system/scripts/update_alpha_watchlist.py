@@ -11,6 +11,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
+SEC_USER_AGENT = "alpha-watchlist-updater/1.0 (ops@alpha-dashboard.local)"
 
 
 def parse_args() -> argparse.Namespace:
@@ -42,14 +43,7 @@ def http_get_json(base_url: str, params: Dict[str, Any], timeout: int = 12) -> A
     url = f"{base_url}?{query}" if query else base_url
     retries = 4
     for attempt in range(retries):
-        req = Request(
-            url=url,
-            headers={
-                "Accept": "application/json",
-                "User-Agent": "alpha-watchlist-updater/1.0",
-            },
-            method="GET",
-        )
+        req = Request(url=url, headers=_default_headers(url), method="GET")
         try:
             with urlopen(req, timeout=timeout) as resp:
                 return json.loads(resp.read().decode("utf-8"))
@@ -66,6 +60,42 @@ def http_get_json(base_url: str, params: Dict[str, Any], timeout: int = 12) -> A
                 continue
             raise
     raise RuntimeError(f"Request failed after retries: {url}")
+
+
+def http_get_text(base_url: str, params: Dict[str, Any], timeout: int = 12) -> str:
+    query = urlencode(params)
+    url = f"{base_url}?{query}" if query else base_url
+    retries = 4
+    for attempt in range(retries):
+        req = Request(url=url, headers=_default_headers(url), method="GET")
+        try:
+            with urlopen(req, timeout=timeout) as resp:
+                return resp.read().decode("utf-8")
+        except HTTPError as exc:
+            if exc.code in (429, 500, 502, 503, 504) and attempt < retries - 1:
+                retry_after = exc.headers.get("Retry-After")
+                sleep_sec = float(retry_after) if retry_after else (1.6 * (2**attempt))
+                time.sleep(sleep_sec)
+                continue
+            raise
+        except URLError:
+            if attempt < retries - 1:
+                time.sleep(1.2 * (2**attempt))
+                continue
+            raise
+    raise RuntimeError(f"Request failed after retries: {url}")
+
+
+def _default_headers(url: str) -> Dict[str, str]:
+    if "sec.gov" in url:
+        return {
+            "Accept": "application/json",
+            "User-Agent": SEC_USER_AGENT,
+        }
+    return {
+        "Accept": "*/*",
+        "User-Agent": "Mozilla/5.0",
+    }
 
 
 def fetch_coingecko_metrics(coingecko_id: str) -> Dict[str, Any]:
@@ -125,6 +155,82 @@ def fetch_coingecko_metrics(coingecko_id: str) -> Dict[str, Any]:
         "return_30d_from_chart": ret_30d,
         "ath_change_pct": md.get("ath_change_percentage", {}).get("usd"),
         "last_updated": coin.get("last_updated"),
+    }
+
+
+def _latest_fact_value(company_facts: Dict[str, Any], taxonomy: str, tag: str, unit: str) -> float | None:
+    candidates = (
+        company_facts.get("facts", {})
+        .get(taxonomy, {})
+        .get(tag, {})
+        .get("units", {})
+        .get(unit, [])
+    )
+    if not candidates:
+        return None
+    items = [x for x in candidates if x.get("val") is not None]
+    if not items:
+        return None
+    items.sort(key=lambda x: (x.get("filed", ""), x.get("end", ""), x.get("fy", 0), x.get("fp", "")))
+    return float(items[-1]["val"])
+
+
+def _resolve_sec_cik(ticker: str) -> str | None:
+    ticker_map = http_get_json("https://www.sec.gov/files/company_tickers.json", {})
+    if not isinstance(ticker_map, dict):
+        return None
+    target = ticker.upper()
+    for row in ticker_map.values():
+        if str(row.get("ticker", "")).upper() == target:
+            return str(row.get("cik_str", ""))
+    return None
+
+
+def _fetch_us_equity_valuation(ticker: str, sec_cik: str | None = None) -> Dict[str, Any]:
+    stooq_symbol = f"{ticker.lower()}.us"
+    line = http_get_text("https://stooq.com/q/l/", {"s": stooq_symbol, "i": "d"}).strip()
+    parts = [x.strip() for x in line.split(",")]
+    if len(parts) < 8:
+        raise RuntimeError(f"Unexpected stooq payload for {ticker}: {line}")
+
+    price = float(parts[6])
+    price_date = parts[1]
+
+    cik_raw = sec_cik or _resolve_sec_cik(ticker)
+    if not cik_raw:
+        raise RuntimeError(f"CIK not found for {ticker}")
+    cik10 = str(int(cik_raw)).zfill(10)
+    facts = http_get_json(f"https://data.sec.gov/api/xbrl/companyfacts/CIK{cik10}.json", {})
+
+    shares_basic = _latest_fact_value(
+        facts,
+        taxonomy="us-gaap",
+        tag="WeightedAverageNumberOfSharesOutstandingBasic",
+        unit="shares",
+    )
+    shares_diluted = _latest_fact_value(
+        facts,
+        taxonomy="us-gaap",
+        tag="WeightedAverageNumberOfDilutedSharesOutstanding",
+        unit="shares",
+    )
+    if shares_basic is None:
+        raise RuntimeError(f"SEC shares data unavailable for {ticker}")
+    if shares_diluted is None:
+        shares_diluted = shares_basic
+
+    market_cap_usd = price * shares_basic
+    fdv_usd = price * shares_diluted
+    return {
+        "ticker": ticker.upper(),
+        "price_usd": price,
+        "price_date": price_date,
+        "shares_basic": shares_basic,
+        "shares_diluted": shares_diluted,
+        "market_cap_usd": market_cap_usd,
+        "fdv_usd": fdv_usd,
+        "cik": cik10,
+        "source": "stooq+sec",
     }
 
 
@@ -202,6 +308,24 @@ def main() -> None:
 
     for project in watchlist:
         metrics = fetch_coingecko_metrics(project["coingecko_id"])
+        valuation_note = "CoinGecko"
+        override = project.get("valuation_override")
+        if isinstance(override, dict) and override.get("type") == "us_equity_proxy":
+            try:
+                proxy = _fetch_us_equity_valuation(
+                    ticker=str(override["ticker"]),
+                    sec_cik=override.get("sec_cik"),
+                )
+                metrics["market_cap_usd"] = proxy["market_cap_usd"]
+                metrics["fdv_usd"] = proxy["fdv_usd"]
+                metrics["valuation_proxy"] = proxy
+                valuation_note = (
+                    f"US Equity {proxy['ticker']} "
+                    f"(price={proxy['price_usd']:.2f} @ {proxy['price_date']}, SEC shares)"
+                )
+            except Exception as exc:
+                valuation_note = f"CoinGecko (equity override failed: {exc})"
+
         market_cap = metrics.get("market_cap_usd")
         fdv = metrics.get("fdv_usd")
         vol_24h = metrics.get("volume_24h_usd")
@@ -233,6 +357,7 @@ def main() -> None:
                 "circulating_ratio_to_max": circ_ratio,
                 "valuation_label": v_label,
                 "liquidity_label": l_label,
+                "valuation_note": valuation_note,
             },
         }
         snapshot_items.append(snapshot)
@@ -248,6 +373,7 @@ def main() -> None:
 - Market Cap: {as_money(market_cap)}
 - FDV: {as_money(fdv)}
 - FDV/MCAP: {as_ratio(fdv_to_mcap)} ({v_label})""" + f"""
+- Valuation Source: {valuation_note}
 - 24h Volume: {as_money(vol_24h)}
 - 24h Volume/MCAP: {as_pct(vol_to_mcap)} ({l_label})
 - 7d Price Change: {as_pct_from_percent(metrics.get('price_change_7d_pct'))}

@@ -51,6 +51,11 @@
       "name": "Circle xStock",
       "sector": "stablecoin_ai_payment",
       "coingecko_id": "circle-xstock",
+      "valuation_override": {
+        "type": "us_equity_proxy",
+        "ticker": "CRCL",
+        "sec_cik": "1876042"
+      },
       "thesis": [
         "稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。",
         "若链上支付交易量与结算活跃度持续提升，估值可获得基本面支撑。",

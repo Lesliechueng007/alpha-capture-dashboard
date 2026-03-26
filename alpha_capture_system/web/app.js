@@ -31,6 +31,7 @@ function makeCard(item) {
   const thesis = (item.thesis || []).map((x) => `<li>${x}</li>`).join("");
   const risks = (item.risk_flags || []).map((x) => `<li>${x}</li>`).join("");
   const cgLink = `https://www.coingecko.com/en/coins/${item.coingecko_id}`;
+  const valuationNote = item.valuation_note || "N/A";
 
   return `
     <article class="card">
@@ -44,6 +45,7 @@ function makeCard(item) {
         <span class="chip ${valuationChipClass(valLabel)}">估值: ${valLabel}</span>
         <span class="chip">流动性: ${liqLabel}</span>
       </div>
+      <div class="sub" style="margin-top:8px;">估值口径: ${valuationNote}</div>
       <div class="grid">
         <div class="kv"><div class="k">Price</div><div class="v">${fmtMoney(item.price_usd)}</div></div>
         <div class="kv"><div class="k">Market Cap</div><div class="v">${fmtMoney(item.market_cap_usd)}</div></div>
@@ -103,4 +105,3 @@ async function init() {
 }
 
 init();
-
