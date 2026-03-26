@@ -234,6 +234,27 @@ def _fetch_us_equity_valuation(ticker: str, sec_cik: str | None = None) -> Dict[
     }
 
 
+def _apply_equity_share_overrides(proxy: Dict[str, Any], override: Dict[str, Any]) -> Dict[str, Any]:
+    shares_basic = override.get("shares_basic_override")
+    shares_diluted = override.get("shares_diluted_override")
+    if shares_basic is None and shares_diluted is None:
+        return proxy
+
+    out = dict(proxy)
+    if shares_basic is not None:
+        out["shares_basic"] = float(shares_basic)
+    if shares_diluted is not None:
+        out["shares_diluted"] = float(shares_diluted)
+    if out.get("shares_diluted") is None:
+        out["shares_diluted"] = out.get("shares_basic")
+
+    price = float(out["price_usd"])
+    out["market_cap_usd"] = price * float(out["shares_basic"])
+    out["fdv_usd"] = price * float(out["shares_diluted"])
+    out["source"] = "stooq+user_share_override"
+    return out
+
+
 def as_money(v: float | None) -> str:
     if v is None:
         return "N/A"
@@ -316,6 +337,7 @@ def main() -> None:
                     ticker=str(override["ticker"]),
                     sec_cik=override.get("sec_cik"),
                 )
+                proxy = _apply_equity_share_overrides(proxy, override)
                 metrics["market_cap_usd"] = proxy["market_cap_usd"]
                 metrics["fdv_usd"] = proxy["fdv_usd"]
                 metrics["valuation_proxy"] = proxy
@@ -323,6 +345,12 @@ def main() -> None:
                     f"US Equity {proxy['ticker']} "
                     f"(price={proxy['price_usd']:.2f} @ {proxy['price_date']}, SEC shares)"
                 )
+                if override.get("shares_basic_override") is not None:
+                    valuation_note = (
+                        f"US Equity {proxy['ticker']} "
+                        f"(price={proxy['price_usd']:.2f} @ {proxy['price_date']}, "
+                        "user-provided float/diluted shares)"
+                    )
             except Exception as exc:
                 valuation_note = f"CoinGecko (equity override failed: {exc})"
 

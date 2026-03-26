@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-26T08:23:47.504365+00:00",
+  "generated_at_utc": "2026-03-26T08:52:29.149628+00:00",
   "project_count": 3,
   "items": [
     {
@@ -19,22 +19,22 @@
         "监管风险：高杠杆衍生品政策不确定性"
       ],
       "price_usd": 39.05,
-      "market_cap_usd": 9309339901,
-      "fdv_usd": 37578388491,
-      "volume_24h_usd": 274014737,
+      "market_cap_usd": 9295582547,
+      "fdv_usd": 37522855103,
+      "volume_24h_usd": 272335929,
       "market_cap_rank": 15,
-      "price_change_7d_pct": -5.21318,
-      "price_change_30d_pct": 48.89988,
+      "price_change_7d_pct": -5.22791,
+      "price_change_30d_pct": 48.87674,
       "circulating_supply": 238385315.9541414,
       "max_supply": 1000000000.0,
-      "fdv_to_mcap": 4.036632982641805,
-      "volume_to_mcap_pct": 2.9434389539323367,
+      "fdv_to_mcap": 4.036632982739731,
+      "volume_to_mcap_pct": 2.929734931867095,
       "circulating_ratio_pct": 23.838531595414143,
       "valuation_label": "WARN",
       "liquidity_label": "NORMAL",
       "valuation_note": "CoinGecko",
       "valuation_proxy": null,
-      "last_updated": "2026-03-26T08:23:06.812Z"
+      "last_updated": "2026-03-26T08:51:33.604Z"
     },
     {
       "symbol": "CRCLX",
@@ -52,33 +52,33 @@
         "叙事切换风险：AI 支付热度下降影响估值",
         "竞品风险：稳定币支付与 RWA 赛道竞争加剧"
       ],
-      "price_usd": 101.39,
-      "market_cap_usd": 16482478140.0,
-      "fdv_usd": 16482478140.0,
-      "volume_24h_usd": 20344871,
-      "market_cap_rank": 482,
-      "price_change_7d_pct": -23.76282,
-      "price_change_30d_pct": 67.8058,
+      "price_usd": 101.28,
+      "market_cap_usd": 21325000000.0,
+      "fdv_usd": 25634000000.0,
+      "volume_24h_usd": 20259796,
+      "market_cap_rank": 484,
+      "price_change_7d_pct": -23.84602,
+      "price_change_30d_pct": 67.62265,
       "circulating_supply": 443628.0330145982,
       "max_supply": null,
-      "fdv_to_mcap": 1.0,
-      "volume_to_mcap_pct": 0.12343332614909812,
+      "fdv_to_mcap": 1.202063305978898,
+      "volume_to_mcap_pct": 0.09500490504103165,
       "circulating_ratio_pct": null,
       "valuation_label": "OK",
       "liquidity_label": "LOW",
-      "valuation_note": "US Equity CRCL (price=103.86 @ 20260325, SEC shares)",
+      "valuation_note": "US Equity CRCL (price=103.86 @ 20260325, user-provided float/diluted shares)",
       "valuation_proxy": {
         "ticker": "CRCL",
         "price_usd": 103.86,
         "price_date": "20260325",
-        "shares_basic": 158699000.0,
-        "shares_diluted": 158699000.0,
-        "market_cap_usd": 16482478140.0,
-        "fdv_usd": 16482478140.0,
+        "shares_basic": 205324475.25515115,
+        "shares_diluted": 246813017.52358946,
+        "market_cap_usd": 21325000000.0,
+        "fdv_usd": 25634000000.0,
         "cik": "0001876042",
-        "source": "stooq+sec"
+        "source": "stooq+user_share_override"
       },
-      "last_updated": "2026-03-26T08:23:45.654Z"
+      "last_updated": "2026-03-26T08:51:42.795Z"
     },
     {
       "symbol": "BNKR",
@@ -96,23 +96,23 @@
         "执行风险：平台真实采用率若不及预期，估值修复失效",
         "Base 生态竞争：同类发行/工具平台分流用户"
       ],
-      "price_usd": 0.00037819,
-      "market_cap_usd": 37819738,
-      "fdv_usd": 37819738,
-      "volume_24h_usd": 2660511,
-      "market_cap_rank": 545,
-      "price_change_7d_pct": -17.10689,
-      "price_change_30d_pct": -30.00131,
+      "price_usd": 0.00037447,
+      "market_cap_usd": 37458089,
+      "fdv_usd": 37458089,
+      "volume_24h_usd": 2716532,
+      "market_cap_rank": 547,
+      "price_change_7d_pct": -17.92195,
+      "price_change_30d_pct": -30.68959,
       "circulating_supply": 99999999999.99998,
       "max_supply": 100000000000.0,
       "fdv_to_mcap": 1.0,
-      "volume_to_mcap_pct": 7.034715576295109,
+      "volume_to_mcap_pct": 7.252190574911603,
       "circulating_ratio_pct": 99.99999999999999,
       "valuation_label": "OK",
       "liquidity_label": "NORMAL",
       "valuation_note": "CoinGecko",
       "valuation_proxy": null,
-      "last_updated": "2026-03-26T08:23:44.681Z"
+      "last_updated": "2026-03-26T08:52:19.559Z"
     }
   ]
 }

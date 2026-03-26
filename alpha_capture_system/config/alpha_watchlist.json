@@ -54,7 +54,12 @@
       "valuation_override": {
         "type": "us_equity_proxy",
         "ticker": "CRCL",
-        "sec_cik": "1876042"
+        "sec_cik": "1876042",
+        "shares_basic_override": 205324475.25515115,
+        "shares_diluted_override": 246813017.52358946,
+        "reference_price_usd": 103.86,
+        "reference_market_cap_usd": 21325000000,
+        "reference_fdv_usd": 25634000000
       },
       "thesis": [
         "稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。",
