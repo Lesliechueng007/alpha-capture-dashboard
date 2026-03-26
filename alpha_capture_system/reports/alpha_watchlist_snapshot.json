@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-03-26T07:06:36.711284+00:00",
+  "generated_at_utc": "2026-03-26T08:11:18.606381+00:00",
   "items": [
     {
-      "run_ts_utc": "2026-03-26T07:06:36.711284+00:00",
+      "run_ts_utc": "2026-03-26T08:11:18.606381+00:00",
       "project": {
         "symbol": "HYPE",
         "name": "Hyperliquid",
@@ -31,29 +31,29 @@
         "name": "Hyperliquid",
         "symbol": "HYPE",
         "market_cap_rank": 15,
-        "price_usd": 38.83,
-        "market_cap_usd": 9245354893,
-        "fdv_usd": 37320104496,
-        "volume_24h_usd": 277058077,
+        "price_usd": 39.08,
+        "market_cap_usd": 9313642364,
+        "fdv_usd": 37595755954,
+        "volume_24h_usd": 275210769,
         "circulating_supply": 238385315.9541414,
         "total_supply": 962274028.9541414,
         "max_supply": 1000000000.0,
-        "price_change_7d_pct": -5.76286,
-        "price_change_30d_pct": 48.03638,
-        "return_30d_from_chart": 0.4284867747850658,
-        "ath_change_pct": -34.53119,
-        "last_updated": "2026-03-26T07:05:55.671Z"
+        "price_change_7d_pct": -5.1568,
+        "price_change_30d_pct": 48.98844,
+        "return_30d_from_chart": 0.43753865927491775,
+        "ath_change_pct": -34.11015,
+        "last_updated": "2026-03-26T08:10:55.639Z"
       },
       "derived": {
-        "fdv_to_mcap": 4.036632982499832,
-        "volume_to_mcap": 0.029967273317952448,
+        "fdv_to_mcap": 4.03663298252881,
+        "volume_to_mcap": 0.02954920945469965,
         "circulating_ratio_to_max": 0.23838531595414142,
         "valuation_label": "WARN",
         "liquidity_label": "NORMAL"
       }
     },
     {
-      "run_ts_utc": "2026-03-26T07:06:36.711284+00:00",
+      "run_ts_utc": "2026-03-26T08:11:18.606381+00:00",
       "project": {
         "symbol": "BNKR",
         "name": "BankrCoin",
@@ -81,26 +81,77 @@
         "coingecko_id": "bankercoin-2",
         "name": "BankrCoin",
         "symbol": "BNKR",
-        "market_cap_rank": 546,
-        "price_usd": 0.00037812,
-        "market_cap_usd": 37769901,
-        "fdv_usd": 37769901,
-        "volume_24h_usd": 2640486,
+        "market_cap_rank": 544,
+        "price_usd": 0.00037772,
+        "market_cap_usd": 37798714,
+        "fdv_usd": 37798714,
+        "volume_24h_usd": 2652496,
         "circulating_supply": 99999999999.99998,
         "total_supply": 99999999999.99998,
         "max_supply": 100000000000.0,
-        "price_change_7d_pct": -17.23572,
-        "price_change_30d_pct": -30.01409,
-        "return_30d_from_chart": -0.31427547222278074,
-        "ath_change_pct": -68.55312,
-        "last_updated": "2026-03-26T07:06:35.614Z"
+        "price_change_7d_pct": -17.20888,
+        "price_change_30d_pct": -30.08743,
+        "return_30d_from_chart": -0.31499412314453257,
+        "ath_change_pct": -68.52961,
+        "last_updated": "2026-03-26T08:11:12.901Z"
       },
       "derived": {
         "fdv_to_mcap": 1.0,
-        "volume_to_mcap": 0.06990979404473419,
+        "volume_to_mcap": 0.07017423926115582,
         "circulating_ratio_to_max": 0.9999999999999999,
         "valuation_label": "OK",
         "liquidity_label": "NORMAL"
+      }
+    },
+    {
+      "run_ts_utc": "2026-03-26T08:11:18.606381+00:00",
+      "project": {
+        "symbol": "CRCLX",
+        "name": "Circle xStock",
+        "sector": "stablecoin_ai_payment",
+        "coingecko_id": "circle-xstock",
+        "thesis": [
+          "稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。",
+          "若链上支付交易量与结算活跃度持续提升，估值可获得基本面支撑。",
+          "代币化证券赛道在合规推进下，具备中长期结构性增长弹性。"
+        ],
+        "kpi_thresholds": {
+          "fdv_to_mcap_warn": 1.8,
+          "fdv_to_mcap_rich": 2.5,
+          "volume_to_mcap_low": 0.01,
+          "volume_to_mcap_high": 0.2
+        },
+        "risk_flags": [
+          "监管风险：代币化证券与支付合规政策变化",
+          "流动性风险：成交深度不足时波动放大",
+          "叙事切换风险：AI 支付热度下降影响估值",
+          "竞品风险：稳定币支付与 RWA 赛道竞争加剧"
+        ]
+      },
+      "metrics": {
+        "coingecko_id": "circle-xstock",
+        "name": "Circle xStock",
+        "symbol": "CRCLX",
+        "market_cap_rank": 480,
+        "price_usd": 101.78,
+        "market_cap_usd": 45302847,
+        "fdv_usd": 257050617,
+        "volume_24h_usd": 20527227,
+        "circulating_supply": 443628.0330145982,
+        "total_supply": 2517167.59720146,
+        "max_supply": null,
+        "price_change_7d_pct": -23.46796,
+        "price_change_30d_pct": 68.45482,
+        "return_30d_from_chart": 0.6506653206635058,
+        "ath_change_pct": -60.2247,
+        "last_updated": "2026-03-26T08:12:11.559Z"
+      },
+      "derived": {
+        "fdv_to_mcap": 5.674049955403465,
+        "volume_to_mcap": 0.4531111918860199,
+        "circulating_ratio_to_max": null,
+        "valuation_label": "RICH",
+        "liquidity_label": "HOT"
       }
     }
   ]

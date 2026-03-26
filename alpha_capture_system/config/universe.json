@@ -71,6 +71,15 @@
       "binance_spot_symbol": null,
       "binance_perp_symbol": null,
       "coingecko_id": "bankercoin-2"
+    },
+    {
+      "symbol": "CRCLX",
+      "name": "Circle xStock",
+      "sector": "stablecoin_ai_payment",
+      "fundamental_score": 0.74,
+      "binance_spot_symbol": null,
+      "binance_perp_symbol": null,
+      "coingecko_id": "circle-xstock"
     }
   ]
 }

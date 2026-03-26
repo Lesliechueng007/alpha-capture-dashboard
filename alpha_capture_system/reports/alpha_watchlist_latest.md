@@ -1,19 +1,19 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-03-26T07:06:36.711284+00:00
+- Generated at (UTC): 2026-03-26T08:11:18.606381+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $38.83
-- Market Cap: $9.25B
-- FDV: $37.32B
+- Price: $39.08
+- Market Cap: $9.31B
+- FDV: $37.60B
 - FDV/MCAP: 4.04 (WARN)
-- 24h Volume: $277.06M
-- 24h Volume/MCAP: 3.00% (NORMAL)
-- 7d Price Change: -5.76%
-- 30d Price Change: 48.04%
+- 24h Volume: $275.21M
+- 24h Volume/MCAP: 2.95% (NORMAL)
+- 7d Price Change: -5.16%
+- 30d Price Change: 48.99%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 15
 
@@ -33,15 +33,15 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0004
-- Market Cap: $37.77M
-- FDV: $37.77M
+- Market Cap: $37.80M
+- FDV: $37.80M
 - FDV/MCAP: 1.00 (OK)
-- 24h Volume: $2.64M
-- 24h Volume/MCAP: 6.99% (NORMAL)
-- 7d Price Change: -17.24%
-- 30d Price Change: -30.01%
+- 24h Volume: $2.65M
+- 24h Volume/MCAP: 7.02% (NORMAL)
+- 7d Price Change: -17.21%
+- 30d Price Change: -30.09%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 546
+- CoinGecko Market Cap Rank: 544
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -53,3 +53,29 @@
 - 叙事依赖：AI agent 热度降温会压缩估值
 - 执行风险：平台真实采用率若不及预期，估值修复失效
 - Base 生态竞争：同类发行/工具平台分流用户
+
+## Circle xStock (CRCLX)
+
+- Sector: stablecoin_ai_payment
+- CoinGecko ID: circle-xstock
+- Price: $101.78
+- Market Cap: $45.30M
+- FDV: $257.05M
+- FDV/MCAP: 5.67 (RICH)
+- 24h Volume: $20.53M
+- 24h Volume/MCAP: 45.31% (HOT)
+- 7d Price Change: -23.47%
+- 30d Price Change: 68.45%
+- Circulating / Max Supply: N/A
+- CoinGecko Market Cap Rank: 480
+
+### Alpha Thesis
+- 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
+- 若链上支付交易量与结算活跃度持续提升，估值可获得基本面支撑。
+- 代币化证券赛道在合规推进下，具备中长期结构性增长弹性。
+
+### Risk Flags
+- 监管风险：代币化证券与支付合规政策变化
+- 流动性风险：成交深度不足时波动放大
+- 叙事切换风险：AI 支付热度下降影响估值
+- 竞品风险：稳定币支付与 RWA 赛道竞争加剧

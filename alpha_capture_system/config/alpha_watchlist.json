@@ -45,6 +45,29 @@
         "执行风险：平台真实采用率若不及预期，估值修复失效",
         "Base 生态竞争：同类发行/工具平台分流用户"
       ]
+    },
+    {
+      "symbol": "CRCLX",
+      "name": "Circle xStock",
+      "sector": "stablecoin_ai_payment",
+      "coingecko_id": "circle-xstock",
+      "thesis": [
+        "稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。",
+        "若链上支付交易量与结算活跃度持续提升，估值可获得基本面支撑。",
+        "代币化证券赛道在合规推进下，具备中长期结构性增长弹性。"
+      ],
+      "kpi_thresholds": {
+        "fdv_to_mcap_warn": 1.8,
+        "fdv_to_mcap_rich": 2.5,
+        "volume_to_mcap_low": 0.01,
+        "volume_to_mcap_high": 0.2
+      },
+      "risk_flags": [
+        "监管风险：代币化证券与支付合规政策变化",
+        "流动性风险：成交深度不足时波动放大",
+        "叙事切换风险：AI 支付热度下降影响估值",
+        "竞品风险：稳定币支付与 RWA 赛道竞争加剧"
+      ]
     }
   ]
 }
