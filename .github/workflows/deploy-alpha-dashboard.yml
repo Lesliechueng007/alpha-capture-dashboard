@@ -2,28 +2,12 @@ name: Deploy Alpha Dashboard
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - "alpha_capture_system/config/**"
-      - "alpha_capture_system/scripts/**"
-      - "alpha_capture_system/src/**"
-      - "alpha_capture_system/reports/**"
-      - "alpha_capture_system/web/**"
-      - ".github/workflows/deploy-alpha-dashboard.yml"
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  contents: write
 
 jobs:
-  build:
+  refresh:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -38,23 +22,16 @@ jobs:
         working-directory: alpha_capture_system
         run: python3 scripts/refresh_dashboard.py
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        with:
-          enablement: true
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: alpha_capture_system/web
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add alpha_capture_system/reports/alpha_watchlist_latest.md
+          git add alpha_capture_system/reports/alpha_watchlist_snapshot.json
+          git add alpha_capture_system/web/data/watchlist.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "chore: refresh alpha dashboard data [skip ci]"
+            git push
+          fi

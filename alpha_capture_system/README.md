@@ -94,22 +94,22 @@ python3 -m http.server 8080 --directory web
 
 - `http://localhost:8080`
 
-## 一键发布（GitHub Pages）
+## 一键更新（GitHub Actions）
 
 已配置工作流：
 
 - 仓库根目录 `.github/workflows/deploy-alpha-dashboard.yml`
 
-发布方式：
+运行方式：
 
-1. 将仓库推到 GitHub，并在仓库 `Settings -> Pages` 里选择 `Build and deployment: GitHub Actions`。
+1. 将仓库推到 GitHub，并在仓库 `Settings -> Pages` 里选择 `Deploy from a branch`，分支 `main`，目录 `/ (root)`。
 2. 打开 `Actions -> Deploy Alpha Dashboard`。
-3. 点击 `Run workflow`（一键发布）。
+3. 点击 `Run workflow`（一键更新数据并自动提交）。
 
 说明：
 
-- 每次 `Run workflow` 会自动拉取 CoinGecko 最新数据并构建网页。
-- 推送到 `main` 分支相关路径也会自动触发部署。
+- 每次 `Run workflow` 会自动拉取 CoinGecko 最新数据并更新网页数据文件。
+- GitHub Pages 将直接读取仓库中的网页文件。
 - 页面地址通常是 `https://<你的GitHub用户名>.github.io/<仓库名>/`。
 
 ## 下一步迭代建议
