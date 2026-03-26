@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alpha Watchlist Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>Alpha Watchlist Dashboard</h1>
+        <p>加密阿尔法项目追踪看板（估值、流动性、风险、叙事）</p>
+        <div class="meta">
+          <span id="generatedAt">加载中...</span>
+          <button id="refreshBtn" type="button">刷新页面</button>
+        </div>
+      </header>
+
+      <section class="stats" id="stats"></section>
+      <section class="cards" id="cards"></section>
+    </main>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
+

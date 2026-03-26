@@ -1,0 +1,76 @@
+{
+  "assets": [
+    {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "sector": "store_of_value",
+      "fundamental_score": 0.90,
+      "binance_spot_symbol": "BTCUSDT",
+      "binance_perp_symbol": "BTCUSDT",
+      "coingecko_id": "bitcoin"
+    },
+    {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "sector": "smart_contract",
+      "fundamental_score": 0.86,
+      "binance_spot_symbol": "ETHUSDT",
+      "binance_perp_symbol": "ETHUSDT",
+      "coingecko_id": "ethereum"
+    },
+    {
+      "symbol": "SOL",
+      "name": "Solana",
+      "sector": "high_performance_l1",
+      "fundamental_score": 0.79,
+      "binance_spot_symbol": "SOLUSDT",
+      "binance_perp_symbol": "SOLUSDT",
+      "coingecko_id": "solana"
+    },
+    {
+      "symbol": "BASE",
+      "name": "Base Ecosystem Proxy",
+      "sector": "l2_ecosystem",
+      "fundamental_score": 0.75,
+      "binance_spot_symbol": "AEROUSDT",
+      "binance_perp_symbol": null,
+      "coingecko_id": "aerodrome-finance"
+    },
+    {
+      "symbol": "DRIV",
+      "name": "Derivatives Track Proxy",
+      "sector": "derivatives",
+      "fundamental_score": 0.72,
+      "binance_spot_symbol": "DYDXUSDT",
+      "binance_perp_symbol": "DYDXUSDT",
+      "coingecko_id": "dydx"
+    },
+    {
+      "symbol": "AIA",
+      "name": "AI Agent Track Proxy",
+      "sector": "ai_agent",
+      "fundamental_score": 0.70,
+      "binance_spot_symbol": "FETUSDT",
+      "binance_perp_symbol": "FETUSDT",
+      "coingecko_id": "fetch-ai"
+    },
+    {
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "sector": "derivatives",
+      "fundamental_score": 0.82,
+      "binance_spot_symbol": null,
+      "binance_perp_symbol": null,
+      "coingecko_id": "hyperliquid"
+    },
+    {
+      "symbol": "BNKR",
+      "name": "BankrCoin",
+      "sector": "ai_agent_base",
+      "fundamental_score": 0.66,
+      "binance_spot_symbol": null,
+      "binance_perp_symbol": null,
+      "coingecko_id": "bankercoin-2"
+    }
+  ]
+}

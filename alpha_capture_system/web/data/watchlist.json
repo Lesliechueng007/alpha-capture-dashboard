@@ -1,0 +1,70 @@
+{
+  "generated_at_utc": "2026-03-26T07:06:36.711284+00:00",
+  "project_count": 2,
+  "items": [
+    {
+      "symbol": "HYPE",
+      "name": "Hyperliquid",
+      "sector": "derivatives",
+      "coingecko_id": "hyperliquid",
+      "thesis": [
+        "协议交易手续费通过 Assistance Fund 自动换成 HYPE 并销毁，形成通缩锚。",
+        "若手续费收入维持高位，则买盘与销毁可抵消并压制潜在增发抛压。",
+        "作为头部链上衍生品基础设施，交易深度和流动性网络效应是核心护城河。"
+      ],
+      "risk_flags": [
+        "估值透支：FDV/MCAP 长期维持高位",
+        "手续费回落：买回销毁边际减弱",
+        "赛道竞争：新兴 perp DEX 抢占交易量",
+        "监管风险：高杠杆衍生品政策不确定性"
+      ],
+      "price_usd": 38.83,
+      "market_cap_usd": 9245354893,
+      "fdv_usd": 37320104496,
+      "volume_24h_usd": 277058077,
+      "market_cap_rank": 15,
+      "price_change_7d_pct": -5.76286,
+      "price_change_30d_pct": 48.03638,
+      "circulating_supply": 238385315.9541414,
+      "max_supply": 1000000000.0,
+      "fdv_to_mcap": 4.036632982499832,
+      "volume_to_mcap_pct": 2.996727331795245,
+      "circulating_ratio_pct": 23.838531595414143,
+      "valuation_label": "WARN",
+      "liquidity_label": "NORMAL",
+      "last_updated": "2026-03-26T07:05:55.671Z"
+    },
+    {
+      "symbol": "BNKR",
+      "name": "BankrCoin",
+      "sector": "base_ai_agent",
+      "coingecko_id": "bankercoin-2",
+      "thesis": [
+        "Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。",
+        "当前估值在同赛道中相对便宜，具备估值修复弹性。",
+        "若工具端活跃用户与链上交互持续增长，代币可获得基本面支撑。"
+      ],
+      "risk_flags": [
+        "小市值高波动：流动性不足时回撤放大",
+        "叙事依赖：AI agent 热度降温会压缩估值",
+        "执行风险：平台真实采用率若不及预期，估值修复失效",
+        "Base 生态竞争：同类发行/工具平台分流用户"
+      ],
+      "price_usd": 0.00037812,
+      "market_cap_usd": 37769901,
+      "fdv_usd": 37769901,
+      "volume_24h_usd": 2640486,
+      "market_cap_rank": 546,
+      "price_change_7d_pct": -17.23572,
+      "price_change_30d_pct": -30.01409,
+      "circulating_supply": 99999999999.99998,
+      "max_supply": 100000000000.0,
+      "fdv_to_mcap": 1.0,
+      "volume_to_mcap_pct": 6.990979404473419,
+      "circulating_ratio_pct": 99.99999999999999,
+      "valuation_label": "OK",
+      "liquidity_label": "NORMAL",
+      "last_updated": "2026-03-26T07:06:35.614Z"
+    }
+  ]
+}
