@@ -2,12 +2,19 @@ name: Deploy Alpha Dashboard
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: alpha-dashboard-refresh
+  cancel-in-progress: true
+
 jobs:
   refresh:
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

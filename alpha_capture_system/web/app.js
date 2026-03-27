@@ -71,37 +71,75 @@ function makeCard(item) {
   `;
 }
 
+const AUTO_REFRESH_MS = 60 * 1000;
+let timer = null;
+
+function setLastSync(lastSyncNode) {
+  const now = new Date();
+  const local = now.toLocaleString("zh-CN", { hour12: false });
+  lastSyncNode.textContent = `页面上次同步: ${local}`;
+}
+
+async function loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode) {
+  const res = await fetch(`./data/watchlist.json?t=${Date.now()}`, { cache: "no-store" });
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+  const items = Array.isArray(data.items) ? data.items : [];
+  const riskCount = items.filter((x) => x.valuation_label === "RICH" || x.valuation_label === "WARN").length;
+  const totalMcap = items.reduce((sum, x) => sum + (x.market_cap_usd || 0), 0);
+  const avgVol = items.length
+    ? items.reduce((sum, x) => sum + (x.volume_to_mcap_pct || 0), 0) / items.length
+    : 0;
+
+  generatedAtNode.textContent = `数据时间(UTC): ${data.generated_at_utc || "N/A"}`;
+  statsNode.innerHTML = [
+    makeStat("项目数", String(items.length)),
+    makeStat("总市值", fmtMoney(totalMcap)),
+    makeStat("平均24h换手(Vol/MCAP)", fmtPct(avgVol)),
+    makeStat("估值预警数(WARN/RICH)", String(riskCount)),
+  ].join("");
+  cardsNode.innerHTML = items.map(makeCard).join("");
+  setLastSync(lastSyncNode);
+}
+
 async function init() {
   const generatedAtNode = document.getElementById("generatedAt");
+  const lastSyncNode = document.getElementById("lastSyncAt");
   const statsNode = document.getElementById("stats");
   const cardsNode = document.getElementById("cards");
-  document.getElementById("refreshBtn").addEventListener("click", () => window.location.reload());
+  const refreshBtn = document.getElementById("refreshBtn");
+
+  refreshBtn.addEventListener("click", async () => {
+    refreshBtn.disabled = true;
+    try {
+      await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
+    } catch (err) {
+      generatedAtNode.textContent = "加载失败";
+      cardsNode.innerHTML = `<article class="card">读取数据失败：${err.message}</article>`;
+    } finally {
+      refreshBtn.disabled = false;
+    }
+  });
 
   try {
-    const res = await fetch("./data/watchlist.json", { cache: "no-store" });
-    if (!res.ok) {
-      throw new Error(`HTTP ${res.status}`);
-    }
-    const data = await res.json();
-    const items = Array.isArray(data.items) ? data.items : [];
-    const riskCount = items.filter((x) => x.valuation_label === "RICH" || x.valuation_label === "WARN").length;
-    const totalMcap = items.reduce((sum, x) => sum + (x.market_cap_usd || 0), 0);
-    const avgVol = items.length
-      ? items.reduce((sum, x) => sum + (x.volume_to_mcap_pct || 0), 0) / items.length
-      : 0;
-
-    generatedAtNode.textContent = `数据时间(UTC): ${data.generated_at_utc || "N/A"}`;
-    statsNode.innerHTML = [
-      makeStat("项目数", String(items.length)),
-      makeStat("总市值", fmtMoney(totalMcap)),
-      makeStat("平均24h换手(Vol/MCAP)", fmtPct(avgVol)),
-      makeStat("估值预警数(WARN/RICH)", String(riskCount)),
-    ].join("");
-    cardsNode.innerHTML = items.map(makeCard).join("");
+    await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
   } catch (err) {
     generatedAtNode.textContent = "加载失败";
+    lastSyncNode.textContent = "页面同步失败";
     cardsNode.innerHTML = `<article class="card">读取数据失败：${err.message}</article>`;
   }
+
+  if (timer) clearInterval(timer);
+  timer = setInterval(async () => {
+    try {
+      await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
+    } catch (_) {
+      // Keep current rendering and retry at next tick.
+    }
+  }, AUTO_REFRESH_MS);
 }
 
 init();
