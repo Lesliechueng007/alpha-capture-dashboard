@@ -1,42 +1,4 @@
 {
   "updated_at_utc": "2026-03-27T04:30:00Z",
-  "entries": [
-    {
-      "id": "T-20260310-HYPE-01",
-      "symbol": "HYPE",
-      "direction": "long",
-      "thesis_tag": "手续费回购通缩",
-      "entry_date_utc": "2026-03-10T08:00:00Z",
-      "entry_price_usd": 33.2,
-      "exit_date_utc": "2026-03-21T08:00:00Z",
-      "exit_price_usd": 38.9,
-      "size_usd": 10000,
-      "benchmark_symbol": "BTC",
-      "notes": "核心逻辑验证阶段，按计划分批止盈。"
-    },
-    {
-      "id": "T-20260314-BNKR-01",
-      "symbol": "BNKR",
-      "direction": "long",
-      "thesis_tag": "AI agent低估值修复",
-      "entry_date_utc": "2026-03-14T09:00:00Z",
-      "entry_price_usd": 0.00042,
-      "size_usd": 6000,
-      "benchmark_symbol": "ETH",
-      "notes": "持仓中，等待生态活跃与交易量信号共振。"
-    },
-    {
-      "id": "T-20260322-CRCLX-01",
-      "symbol": "CRCLX",
-      "direction": "long",
-      "thesis_tag": "稳定币支付增长",
-      "entry_date_utc": "2026-03-22T07:00:00Z",
-      "entry_price_usd": 92.5,
-      "exit_date_utc": "2026-03-25T07:00:00Z",
-      "exit_price_usd": 103.86,
-      "size_usd": 8000,
-      "benchmark_symbol": "ETH",
-      "notes": "事件驱动+估值修复，达到预设止盈后离场。"
-    }
-  ]
+  "entries": []
 }
