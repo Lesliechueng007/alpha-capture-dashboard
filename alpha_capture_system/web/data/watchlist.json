@@ -1,5 +1,6 @@
 {
   "generated_at_utc": "2026-03-27T04:06:55.759090+00:00",
+  "built_at_utc": "2026-03-27T04:27:36.349646+00:00",
   "project_count": 3,
   "items": [
     {
@@ -114,5 +115,94 @@
       "valuation_proxy": null,
       "last_updated": "2026-03-27T04:06:50.825Z"
     }
-  ]
+  ],
+  "trade_review": {
+    "journal_updated_at_utc": "2026-03-27T04:30:00Z",
+    "summary": {
+      "total_trades": 3,
+      "closed_trades": 2,
+      "open_trades": 1,
+      "win_rate_closed_pct": 100.0,
+      "avg_return_closed_pct": 14.724877889938126,
+      "avg_alpha_closed_pct": -33.93814711006188,
+      "total_pnl_usd": 1874.782527794575,
+      "beta_definition": "优先 benchmark_symbol 对应标的最近30d涨跌幅；缺失时回退为该交易标的最近30d涨跌幅",
+      "alpha_definition": "trade_return_pct - beta_30d_pct（粗归因）"
+    },
+    "by_tag": [
+      {
+        "thesis_tag": "稳定币支付增长",
+        "count": 1,
+        "win_rate_pct": 100.0,
+        "avg_return_pct": 12.28108108108108,
+        "avg_alpha_pct": -44.716128918918926
+      },
+      {
+        "thesis_tag": "手续费回购通缩",
+        "count": 1,
+        "win_rate_pct": 100.0,
+        "avg_return_pct": 17.168674698795172,
+        "avg_alpha_pct": -23.160165301204827
+      }
+    ],
+    "trades": [
+      {
+        "id": "T-20260322-CRCLX-01",
+        "symbol": "CRCLX",
+        "direction": "long",
+        "thesis_tag": "稳定币支付增长",
+        "status": "closed",
+        "entry_date_utc": "2026-03-22T07:00:00Z",
+        "exit_date_utc": "2026-03-25T07:00:00Z",
+        "entry_price_usd": 92.5,
+        "exit_price_usd": 103.86,
+        "mark_price_usd": null,
+        "benchmark_symbol": "ETH",
+        "beta_30d_pct": 56.99721,
+        "return_pct": 12.28108108108108,
+        "alpha_pct": -44.716128918918926,
+        "size_usd": 8000.0,
+        "pnl_usd": 982.4864864864863,
+        "notes": "事件驱动+估值修复，达到预设止盈后离场。"
+      },
+      {
+        "id": "T-20260314-BNKR-01",
+        "symbol": "BNKR",
+        "direction": "long",
+        "thesis_tag": "AI agent低估值修复",
+        "status": "open",
+        "entry_date_utc": "2026-03-14T09:00:00Z",
+        "exit_date_utc": null,
+        "entry_price_usd": 0.00042,
+        "exit_price_usd": null,
+        "mark_price_usd": 0.00036228,
+        "benchmark_symbol": "ETH",
+        "beta_30d_pct": -34.62712,
+        "return_pct": -13.742857142857146,
+        "alpha_pct": 20.88426285714285,
+        "size_usd": 6000.0,
+        "pnl_usd": -824.5714285714287,
+        "notes": "持仓中，等待生态活跃与交易量信号共振。"
+      },
+      {
+        "id": "T-20260310-HYPE-01",
+        "symbol": "HYPE",
+        "direction": "long",
+        "thesis_tag": "手续费回购通缩",
+        "status": "closed",
+        "entry_date_utc": "2026-03-10T08:00:00Z",
+        "exit_date_utc": "2026-03-21T08:00:00Z",
+        "entry_price_usd": 33.2,
+        "exit_price_usd": 38.9,
+        "mark_price_usd": null,
+        "benchmark_symbol": "BTC",
+        "beta_30d_pct": 40.32884,
+        "return_pct": 17.168674698795172,
+        "alpha_pct": -23.160165301204827,
+        "size_usd": 10000.0,
+        "pnl_usd": 1716.867469879517,
+        "notes": "核心逻辑验证阶段，按计划分批止盈。"
+      }
+    ]
+  }
 }

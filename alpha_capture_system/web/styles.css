@@ -107,6 +107,65 @@ body {
   gap: 14px;
 }
 
+.review-block {
+  margin-top: 18px;
+  border: 1px solid var(--border);
+  background: #fff;
+  border-radius: 14px;
+  padding: 14px;
+}
+
+.review-block h2 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.table-wrap {
+  margin-top: 10px;
+}
+
+.table-wrap h3 {
+  margin: 0 0 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.table-shell {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+th,
+td {
+  text-align: left;
+  font-size: 13px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #edf3ef;
+  white-space: nowrap;
+}
+
+th {
+  color: #3b5448;
+  background: #f8fbf9;
+}
+
+td.pos {
+  color: #0b7a44;
+  font-weight: 600;
+}
+
+td.neg {
+  color: #b21f3a;
+  font-weight: 600;
+}
+
 .card {
   border: 1px solid var(--border);
   background: var(--card);

@@ -94,6 +94,29 @@ python3 -m http.server 8080 --directory web
 
 - `http://localhost:8080`
 
+### 交易日志与标签化复盘
+
+交易日志配置文件：
+
+- `config/trade_journal.json`
+
+你可以按条目维护：
+
+- `symbol`、`entry_price_usd`、`exit_price_usd`（可选，未填表示持仓中）
+- `thesis_tag`（例如：`手续费回购通缩`、`AI agent低估值修复`）
+- `benchmark_symbol`（用于 Beta 粗归因，默认建议 BTC/ETH）
+- `size_usd`（用于估算 PnL）
+
+网页会自动展示：
+
+- 标签胜率、平均收益、平均 Alpha（仅统计已平仓）
+- 最近交易记录（含策略收益、Beta、Alpha、PnL）
+
+当前 Alpha/Beta 粗归因口径：
+
+- `Beta = benchmark_symbol 对应标的最近30d涨跌幅`
+- `Alpha = trade_return_pct - Beta`
+
 ## 一键更新（GitHub Actions）
 
 已配置工作流：

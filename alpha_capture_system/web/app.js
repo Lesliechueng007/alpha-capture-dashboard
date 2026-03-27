@@ -16,6 +16,13 @@ function fmtPct(v) {
   return `${Number(v).toFixed(2)}%`;
 }
 
+function fmtSignedPct(v) {
+  if (v === null || v === undefined) return "N/A";
+  const n = Number(v);
+  const sign = n > 0 ? "+" : "";
+  return `${sign}${n.toFixed(2)}%`;
+}
+
 function valuationChipClass(label) {
   const map = { OK: "ok", WARN: "warn", RICH: "rich" };
   return map[label] || "";
@@ -71,6 +78,84 @@ function makeCard(item) {
   `;
 }
 
+function pctClass(v) {
+  if (v === null || v === undefined) return "";
+  const n = Number(v);
+  if (n > 0) return "pos";
+  if (n < 0) return "neg";
+  return "";
+}
+
+function makeTagTable(rows) {
+  if (!rows || !rows.length) return `<article class="card">暂无已平仓标签数据</article>`;
+  const body = rows
+    .map(
+      (r) => `
+      <tr>
+        <td>${r.thesis_tag || "N/A"}</td>
+        <td>${r.count ?? "N/A"}</td>
+        <td class="${pctClass(r.win_rate_pct)}">${fmtPct(r.win_rate_pct)}</td>
+        <td class="${pctClass(r.avg_return_pct)}">${fmtSignedPct(r.avg_return_pct)}</td>
+        <td class="${pctClass(r.avg_alpha_pct)}">${fmtSignedPct(r.avg_alpha_pct)}</td>
+      </tr>`
+    )
+    .join("");
+  return `
+    <div class="table-shell">
+      <table>
+        <thead>
+          <tr>
+            <th>标签</th>
+            <th>样本数</th>
+            <th>胜率</th>
+            <th>平均收益</th>
+            <th>平均Alpha</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>`;
+}
+
+function makeTradeTable(rows) {
+  if (!rows || !rows.length) return `<article class="card">暂无交易日志</article>`;
+  const body = rows
+    .map(
+      (r) => `
+      <tr>
+        <td>${r.id || "N/A"}</td>
+        <td>${r.symbol || "N/A"}</td>
+        <td>${r.thesis_tag || "N/A"}</td>
+        <td>${r.status || "N/A"}</td>
+        <td>${r.benchmark_symbol || "N/A"}</td>
+        <td class="${pctClass(r.return_pct)}">${fmtSignedPct(r.return_pct)}</td>
+        <td class="${pctClass(r.beta_30d_pct)}">${fmtSignedPct(r.beta_30d_pct)}</td>
+        <td class="${pctClass(r.alpha_pct)}">${fmtSignedPct(r.alpha_pct)}</td>
+        <td class="${pctClass(r.pnl_usd)}">${fmtMoney(r.pnl_usd)}</td>
+      </tr>`
+    )
+    .join("");
+  return `
+    <div class="table-shell">
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>标的</th>
+            <th>标签</th>
+            <th>状态</th>
+            <th>基准</th>
+            <th>策略收益</th>
+            <th>Beta(30d)</th>
+            <th>Alpha</th>
+            <th>PnL</th>
+          </tr>
+        </thead>
+        <tbody>${body}</tbody>
+      </table>
+    </div>`;
+}
+
 const AUTO_REFRESH_MS = 60 * 1000;
 let timer = null;
 
@@ -80,7 +165,7 @@ function setLastSync(lastSyncNode) {
   lastSyncNode.textContent = `页面上次同步: ${local}`;
 }
 
-async function loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode) {
+async function loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode, reviewStatsNode, tagTableNode, tradeTableNode) {
   const res = await fetch(`./data/watchlist.json?t=${Date.now()}`, { cache: "no-store" });
   if (!res.ok) {
     throw new Error(`HTTP ${res.status}`);
@@ -101,6 +186,19 @@ async function loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode) {
     makeStat("平均24h换手(Vol/MCAP)", fmtPct(avgVol)),
     makeStat("估值预警数(WARN/RICH)", String(riskCount)),
   ].join("");
+
+  const review = data.trade_review || {};
+  const summary = review.summary || {};
+  reviewStatsNode.innerHTML = [
+    makeStat("总交易数", String(summary.total_trades ?? 0)),
+    makeStat("已平仓", String(summary.closed_trades ?? 0)),
+    makeStat("平仓胜率", fmtPct(summary.win_rate_closed_pct)),
+    makeStat("平均平仓收益", fmtSignedPct(summary.avg_return_closed_pct)),
+    makeStat("平均平仓Alpha", fmtSignedPct(summary.avg_alpha_closed_pct)),
+    makeStat("累计PnL", fmtMoney(summary.total_pnl_usd)),
+  ].join("");
+  tagTableNode.innerHTML = makeTagTable(review.by_tag || []);
+  tradeTableNode.innerHTML = makeTradeTable(review.trades || []);
   cardsNode.innerHTML = items.map(makeCard).join("");
   setLastSync(lastSyncNode);
 }
@@ -109,13 +207,24 @@ async function init() {
   const generatedAtNode = document.getElementById("generatedAt");
   const lastSyncNode = document.getElementById("lastSyncAt");
   const statsNode = document.getElementById("stats");
+  const reviewStatsNode = document.getElementById("reviewStats");
+  const tagTableNode = document.getElementById("tagTable");
+  const tradeTableNode = document.getElementById("tradeTable");
   const cardsNode = document.getElementById("cards");
   const refreshBtn = document.getElementById("refreshBtn");
 
   refreshBtn.addEventListener("click", async () => {
     refreshBtn.disabled = true;
     try {
-      await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
+      await loadData(
+        generatedAtNode,
+        lastSyncNode,
+        statsNode,
+        cardsNode,
+        reviewStatsNode,
+        tagTableNode,
+        tradeTableNode
+      );
     } catch (err) {
       generatedAtNode.textContent = "加载失败";
       cardsNode.innerHTML = `<article class="card">读取数据失败：${err.message}</article>`;
@@ -125,7 +234,15 @@ async function init() {
   });
 
   try {
-    await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
+    await loadData(
+      generatedAtNode,
+      lastSyncNode,
+      statsNode,
+      cardsNode,
+      reviewStatsNode,
+      tagTableNode,
+      tradeTableNode
+    );
   } catch (err) {
     generatedAtNode.textContent = "加载失败";
     lastSyncNode.textContent = "页面同步失败";
@@ -135,7 +252,15 @@ async function init() {
   if (timer) clearInterval(timer);
   timer = setInterval(async () => {
     try {
-      await loadData(generatedAtNode, lastSyncNode, statsNode, cardsNode);
+      await loadData(
+        generatedAtNode,
+        lastSyncNode,
+        statsNode,
+        cardsNode,
+        reviewStatsNode,
+        tagTableNode,
+        tradeTableNode
+      );
     } catch (_) {
       // Keep current rendering and retry at next tick.
     }
