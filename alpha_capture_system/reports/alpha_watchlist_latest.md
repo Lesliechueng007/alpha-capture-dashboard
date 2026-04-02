@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-04-01T23:52:43.764618+00:00
+- Generated at (UTC): 2026-04-02T05:52:07.959094+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $35.98
-- Market Cap: $8.57B
-- FDV: $34.61B
+- Price: $35.19
+- Market Cap: $8.39B
+- FDV: $33.86B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $241.61M
-- 24h Volume/MCAP: 2.82% (NORMAL)
-- 7d Price Change: -10.16%
-- 30d Price Change: 8.70%
+- 24h Volume: $272.12M
+- 24h Volume/MCAP: 3.24% (NORMAL)
+- 7d Price Change: -10.87%
+- 30d Price Change: 6.74%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 16
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $34.77M
-- FDV: $34.77M
+- Market Cap: $33.75M
+- FDV: $33.75M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $4.25M
-- 24h Volume/MCAP: 12.21% (NORMAL)
-- 7d Price Change: -11.13%
-- 30d Price Change: -39.38%
+- 24h Volume: $4.64M
+- 24h Volume/MCAP: 13.75% (NORMAL)
+- 7d Price Change: -12.44%
+- 30d Price Change: -36.66%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 564
+- CoinGecko Market Cap Rank: 571
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $90.88
-- Market Cap: $18.62B
-- FDV: $22.38B
+- Price: $88.46
+- Market Cap: $18.63B
+- FDV: $22.40B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=90.69 @ 20260401, user-provided float/diluted shares)
-- 24h Volume: $15.50M
+- Valuation Source: US Equity CRCL (price=90.74 @ 20260401, user-provided float/diluted shares)
+- 24h Volume: $15.46M
 - 24h Volume/MCAP: 0.08% (LOW)
-- 7d Price Change: -12.56%
-- 30d Price Change: -5.59%
+- 7d Price Change: -14.56%
+- 30d Price Change: -5.92%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 495
+- CoinGecko Market Cap Rank: 499
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
