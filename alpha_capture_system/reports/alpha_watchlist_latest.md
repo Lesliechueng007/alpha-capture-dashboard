@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-04-09T10:40:05.083904+00:00
+- Generated at (UTC): 2026-04-09T16:06:09.326533+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $39.17
-- Market Cap: $9.34B
-- FDV: $37.70B
+- Price: $39.69
+- Market Cap: $9.44B
+- FDV: $38.12B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $350.34M
-- 24h Volume/MCAP: 3.75% (NORMAL)
-- 7d Price Change: 11.80%
-- 30d Price Change: 12.62%
+- 24h Volume: $321.47M
+- 24h Volume/MCAP: 3.40% (NORMAL)
+- 7d Price Change: 13.83%
+- 30d Price Change: 14.29%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 13
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $33.45M
-- FDV: $33.45M
+- Market Cap: $33.99M
+- FDV: $33.99M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $3.76M
-- 24h Volume/MCAP: 11.23% (NORMAL)
-- 7d Price Change: -1.18%
-- 30d Price Change: -34.18%
+- 24h Volume: $4.04M
+- 24h Volume/MCAP: 11.87% (NORMAL)
+- 7d Price Change: -0.74%
+- 30d Price Change: -33.02%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 586
+- CoinGecko Market Cap Rank: 580
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $93.75
-- Market Cap: $19.39B
-- FDV: $23.31B
+- Price: $92.10
+- Market Cap: $18.68B
+- FDV: $22.45B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=94.44 @ 20260408, user-provided float/diluted shares)
-- 24h Volume: $18.16M
+- Valuation Source: US Equity CRCL (price=90.96 @ 20260409, user-provided float/diluted shares)
+- 24h Volume: $17.10M
 - 24h Volume/MCAP: 0.09% (LOW)
-- 7d Price Change: 5.23%
-- 30d Price Change: -18.32%
+- 7d Price Change: 4.87%
+- 30d Price Change: -21.61%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 469
+- CoinGecko Market Cap Rank: 475
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
