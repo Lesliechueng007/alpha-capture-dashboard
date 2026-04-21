@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-04-21T15:54:58.070780+00:00
+- Generated at (UTC): 2026-04-21T19:54:04.573438+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $40.00
-- Market Cap: $9.55B
-- FDV: $38.54B
+- Price: $38.94
+- Market Cap: $9.29B
+- FDV: $37.50B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $342.32M
-- 24h Volume/MCAP: 3.59% (NORMAL)
-- 7d Price Change: -10.38%
-- 30d Price Change: 4.41%
+- 24h Volume: $376.36M
+- 24h Volume/MCAP: 4.05% (NORMAL)
+- 7d Price Change: -10.01%
+- 30d Price Change: 2.20%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 14
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $33.30M
-- FDV: $33.30M
+- Market Cap: $33.16M
+- FDV: $33.16M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $3.53M
-- 24h Volume/MCAP: 10.59% (NORMAL)
-- 7d Price Change: -15.29%
-- 30d Price Change: -14.19%
+- 24h Volume: $3.28M
+- 24h Volume/MCAP: 9.90% (NORMAL)
+- 7d Price Change: -13.91%
+- 30d Price Change: -15.80%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 623
+- CoinGecko Market Cap Rank: 620
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $100.45
-- Market Cap: $20.70B
-- FDV: $24.89B
+- Price: $96.23
+- Market Cap: $19.87B
+- FDV: $23.88B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=100.84 @ 20260421, user-provided float/diluted shares)
-- 24h Volume: $16.61M
+- Valuation Source: US Equity CRCL (price=96.75 @ 20260421, user-provided float/diluted shares)
+- 24h Volume: $16.77M
 - 24h Volume/MCAP: 0.08% (LOW)
-- 7d Price Change: -7.03%
-- 30d Price Change: -20.07%
+- 7d Price Change: -7.64%
+- 30d Price Change: -23.27%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 482
+- CoinGecko Market Cap Rank: 490
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
