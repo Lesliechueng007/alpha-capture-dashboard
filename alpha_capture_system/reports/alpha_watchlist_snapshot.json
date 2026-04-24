@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-04-24T17:57:00.905574+00:00",
+  "generated_at_utc": "2026-04-24T20:09:49.782388+00:00",
   "items": [
     {
-      "run_ts_utc": "2026-04-24T17:57:00.905574+00:00",
+      "run_ts_utc": "2026-04-24T20:09:49.782388+00:00",
       "project": {
         "symbol": "HYPE",
         "name": "Hyperliquid",
@@ -31,22 +31,22 @@
         "name": "Hyperliquid",
         "symbol": "HYPE",
         "market_cap_rank": 13,
-        "price_usd": 41.09,
-        "market_cap_usd": 9795391919,
-        "fdv_usd": 39540402098,
-        "volume_24h_usd": 195652050,
+        "price_usd": 41.29,
+        "market_cap_usd": 9843185826,
+        "fdv_usd": 39733328558,
+        "volume_24h_usd": 186037251,
         "circulating_supply": 238385315.9541414,
         "total_supply": 962274028.9541414,
         "max_supply": 1000000000.0,
-        "price_change_7d_pct": -9.1375,
-        "price_change_30d_pct": 1.95872,
-        "return_30d_from_chart": 0.020640236192422945,
-        "ath_change_pct": -30.71499,
-        "last_updated": "2026-04-24T17:56:54.390Z"
+        "price_change_7d_pct": -6.93997,
+        "price_change_30d_pct": 1.96144,
+        "return_30d_from_chart": 0.02566405139909822,
+        "ath_change_pct": -30.37346,
+        "last_updated": "2026-04-24T20:09:23.509Z"
       },
       "derived": {
-        "fdv_to_mcap": 4.036632982627675,
-        "volume_to_mcap": 0.01997388686618002,
+        "fdv_to_mcap": 4.036632982489017,
+        "volume_to_mcap": 0.018900105543938554,
         "circulating_ratio_to_max": 0.23838531595414142,
         "valuation_label": "WARN",
         "liquidity_label": "LOW",
@@ -54,7 +54,7 @@
       }
     },
     {
-      "run_ts_utc": "2026-04-24T17:57:00.905574+00:00",
+      "run_ts_utc": "2026-04-24T20:09:49.782388+00:00",
       "project": {
         "symbol": "BNKR",
         "name": "BankrCoin",
@@ -83,22 +83,22 @@
         "name": "BankrCoin",
         "symbol": "BNKR",
         "market_cap_rank": 631,
-        "price_usd": 0.00033104,
-        "market_cap_usd": 33104495,
-        "fdv_usd": 33104495,
-        "volume_24h_usd": 3992594,
+        "price_usd": 0.00033066,
+        "market_cap_usd": 33098787,
+        "fdv_usd": 33098787,
+        "volume_24h_usd": 3881512,
         "circulating_supply": 99999999999.99998,
         "total_supply": 99999999999.99998,
         "max_supply": 100000000000.0,
-        "price_change_7d_pct": -11.79875,
-        "price_change_30d_pct": -15.83587,
-        "return_30d_from_chart": -0.15402647042693396,
-        "ath_change_pct": -72.44883,
-        "last_updated": "2026-04-24T17:56:54.487Z"
+        "price_change_7d_pct": -11.05012,
+        "price_change_30d_pct": -15.76118,
+        "return_30d_from_chart": -0.155004976436383,
+        "ath_change_pct": -72.44306,
+        "last_updated": "2026-04-24T20:09:49.657Z"
       },
       "derived": {
         "fdv_to_mcap": 1.0,
-        "volume_to_mcap": 0.12060579688649532,
+        "volume_to_mcap": 0.11727052112211846,
         "circulating_ratio_to_max": 0.9999999999999999,
         "valuation_label": "OK",
         "liquidity_label": "NORMAL",
@@ -106,7 +106,7 @@
       }
     },
     {
-      "run_ts_utc": "2026-04-24T17:57:00.905574+00:00",
+      "run_ts_utc": "2026-04-24T20:09:49.782388+00:00",
       "project": {
         "symbol": "CRCLX",
         "name": "Circle xStock",
@@ -144,38 +144,38 @@
         "coingecko_id": "circle-xstock",
         "name": "Circle xStock",
         "symbol": "CRCLX",
-        "market_cap_rank": 495,
-        "price_usd": 99.53,
-        "market_cap_usd": 20411306085.114574,
-        "fdv_usd": 24535682072.020027,
-        "volume_24h_usd": 18178538,
-        "circulating_supply": 474647.0473930254,
+        "market_cap_rank": 496,
+        "price_usd": 99.62,
+        "market_cap_usd": 20380507413.826305,
+        "fdv_usd": 24498660119.39149,
+        "volume_24h_usd": 18483175,
+        "circulating_supply": 472076.7588579554,
         "total_supply": 2517167.51949821,
         "max_supply": null,
-        "price_change_7d_pct": -4.40687,
-        "price_change_30d_pct": -3.58988,
-        "return_30d_from_chart": -0.03976589895473437,
-        "ath_change_pct": -61.37511,
-        "last_updated": "2026-04-24T17:56:55.475Z",
+        "price_change_7d_pct": -4.60818,
+        "price_change_30d_pct": -2.96399,
+        "return_30d_from_chart": -0.03867260495685865,
+        "ath_change_pct": -61.34846,
+        "last_updated": "2026-04-24T20:09:48.082Z",
         "valuation_proxy": {
           "ticker": "CRCL",
-          "price_usd": 99.41,
+          "price_usd": 99.26,
           "price_date": "20260424",
           "shares_basic": 205324475.25515115,
           "shares_diluted": 246813017.52358946,
-          "market_cap_usd": 20411306085.114574,
-          "fdv_usd": 24535682072.020027,
+          "market_cap_usd": 20380507413.826305,
+          "fdv_usd": 24498660119.39149,
           "cik": "0001876042",
           "source": "stooq+user_share_override"
         }
       },
       "derived": {
         "fdv_to_mcap": 1.202063305978898,
-        "volume_to_mcap": 0.0008906112095030081,
+        "volume_to_mcap": 0.0009069045546658402,
         "circulating_ratio_to_max": null,
         "valuation_label": "OK",
         "liquidity_label": "LOW",
-        "valuation_note": "US Equity CRCL (price=99.41 @ 20260424, user-provided float/diluted shares)"
+        "valuation_note": "US Equity CRCL (price=99.26 @ 20260424, user-provided float/diluted shares)"
       }
     }
   ]
