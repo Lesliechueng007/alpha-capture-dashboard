@@ -1,6 +1,6 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-04-26T11:23:03.961905+00:00
+- Generated at (UTC): 2026-04-26T12:03:42.194086+00:00
 
 ## Hyperliquid (HYPE)
 
@@ -11,10 +11,10 @@
 - FDV: $39.60B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $127.72M
-- 24h Volume/MCAP: 1.30% (LOW)
-- 7d Price Change: -4.15%
-- 30d Price Change: 6.03%
+- 24h Volume: $125.10M
+- 24h Volume/MCAP: 1.28% (LOW)
+- 7d Price Change: -4.46%
+- 30d Price Change: 7.46%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 13
 
@@ -34,14 +34,14 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $32.48M
-- FDV: $32.48M
+- Market Cap: $32.54M
+- FDV: $32.54M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $2.87M
-- 24h Volume/MCAP: 8.82% (NORMAL)
-- 7d Price Change: -11.27%
-- 30d Price Change: -9.38%
+- 24h Volume: $2.28M
+- 24h Volume/MCAP: 7.00% (NORMAL)
+- 7d Price Change: -10.63%
+- 30d Price Change: -8.49%
 - Circulating / Max Supply: 100.00%
 - CoinGecko Market Cap Rank: 641
 
@@ -60,15 +60,15 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $99.59
+- Price: $99.78
 - Market Cap: $20.46B
 - FDV: $24.60B
 - FDV/MCAP: 1.20 (OK)
 - Valuation Source: US Equity CRCL (price=99.66 @ 20260424, user-provided float/diluted shares)
-- 24h Volume: $3.51M
+- 24h Volume: $3.52M
 - 24h Volume/MCAP: 0.02% (LOW)
-- 7d Price Change: -2.52%
-- 30d Price Change: 3.64%
+- 7d Price Change: -2.66%
+- 30d Price Change: 4.72%
 - Circulating / Max Supply: N/A
 - CoinGecko Market Cap Rank: 497
 
