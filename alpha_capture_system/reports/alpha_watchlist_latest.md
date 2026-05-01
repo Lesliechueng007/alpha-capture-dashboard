@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-05-01T20:04:41.288380+00:00
+- Generated at (UTC): 2026-05-01T21:07:45.132167+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $40.96
-- Market Cap: $9.76B
-- FDV: $39.42B
+- Price: $40.84
+- Market Cap: $9.74B
+- FDV: $39.31B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $256.85M
+- 24h Volume: $256.12M
 - 24h Volume/MCAP: 2.63% (NORMAL)
-- 7d Price Change: -0.72%
-- 30d Price Change: 13.31%
+- 7d Price Change: -1.51%
+- 30d Price Change: 12.73%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 13
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $30.65M
-- FDV: $30.65M
+- Market Cap: $30.35M
+- FDV: $30.35M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $2.98M
-- 24h Volume/MCAP: 9.72% (NORMAL)
-- 7d Price Change: -7.58%
-- 30d Price Change: -12.39%
+- 24h Volume: $2.94M
+- 24h Volume/MCAP: 9.69% (NORMAL)
+- 7d Price Change: -8.21%
+- 30d Price Change: -13.95%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 676
+- CoinGecko Market Cap Rank: 681
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $99.61
-- Market Cap: $20.51B
-- FDV: $24.66B
+- Price: $100.53
+- Market Cap: $20.47B
+- FDV: $24.61B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=99.92 @ 20260501, user-provided float/diluted shares)
-- 24h Volume: $13.77M
-- 24h Volume/MCAP: 0.07% (LOW)
-- 7d Price Change: 1.07%
-- 30d Price Change: 9.88%
+- Valuation Source: US Equity CRCL (price=99.70 @ 20260501, user-provided float/diluted shares)
+- 24h Volume: $16.85M
+- 24h Volume/MCAP: 0.08% (LOW)
+- 7d Price Change: 0.89%
+- 30d Price Change: 10.77%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 501
+- CoinGecko Market Cap Rank: 500
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
