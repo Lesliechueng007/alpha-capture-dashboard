@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-05-06T16:27:57.693434+00:00
+- Generated at (UTC): 2026-05-06T18:01:48.568697+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $43.56
-- Market Cap: $10.39B
-- FDV: $41.94B
+- Price: $43.00
+- Market Cap: $10.26B
+- FDV: $41.40B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $417.53M
+- 24h Volume: $412.42M
 - 24h Volume/MCAP: 4.02% (NORMAL)
-- 7d Price Change: 10.42%
-- 30d Price Change: 15.54%
+- 7d Price Change: 8.42%
+- 30d Price Change: 15.02%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 13
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0004
-- Market Cap: $37.75M
-- FDV: $37.75M
+- Market Cap: $37.13M
+- FDV: $37.13M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $5.58M
-- 24h Volume/MCAP: 14.79% (NORMAL)
-- 7d Price Change: 22.12%
-- 30d Price Change: 21.94%
+- 24h Volume: $5.62M
+- 24h Volume/MCAP: 15.12% (NORMAL)
+- 7d Price Change: 22.46%
+- 30d Price Change: 20.19%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 603
+- CoinGecko Market Cap Rank: 609
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $119.16
-- Market Cap: $24.54B
-- FDV: $29.50B
+- Price: $119.05
+- Market Cap: $24.48B
+- FDV: $29.43B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=119.52 @ 20260506, user-provided float/diluted shares)
-- 24h Volume: $22.03M
+- Valuation Source: US Equity CRCL (price=119.25 @ 20260506, user-provided float/diluted shares)
+- 24h Volume: $21.71M
 - 24h Volume/MCAP: 0.09% (LOW)
-- 7d Price Change: 29.38%
-- 30d Price Change: 29.16%
+- 7d Price Change: 28.99%
+- 30d Price Change: 28.62%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 457
+- CoinGecko Market Cap Rank: 458
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
