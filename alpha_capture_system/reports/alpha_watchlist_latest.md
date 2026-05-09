@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-05-09T08:51:25.705161+00:00
+- Generated at (UTC): 2026-05-09T10:05:03.610359+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $43.90
-- Market Cap: $10.46B
-- FDV: $42.24B
+- Price: $43.62
+- Market Cap: $10.40B
+- FDV: $41.98B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $221.93M
-- 24h Volume/MCAP: 2.12% (NORMAL)
-- 7d Price Change: 6.00%
-- 30d Price Change: 13.18%
+- 24h Volume: $231.98M
+- 24h Volume/MCAP: 2.23% (NORMAL)
+- 7d Price Change: 3.94%
+- 30d Price Change: 11.65%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 12
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $33.79M
-- FDV: $33.79M
+- Market Cap: $33.77M
+- FDV: $33.77M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $3.91M
-- 24h Volume/MCAP: 11.58% (NORMAL)
-- 7d Price Change: 9.44%
-- 30d Price Change: 4.29%
+- 24h Volume: $3.92M
+- 24h Volume/MCAP: 11.60% (NORMAL)
+- 7d Price Change: 9.12%
+- 30d Price Change: 1.34%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 661
+- CoinGecko Market Cap Rank: 660
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $115.67
+- Price: $115.59
 - Market Cap: $23.34B
 - FDV: $28.06B
 - FDV/MCAP: 1.20 (OK)
 - Valuation Source: US Equity CRCL (price=113.67 @ 20260508, user-provided float/diluted shares)
-- 24h Volume: $16.41M
+- 24h Volume: $16.02M
 - 24h Volume/MCAP: 0.07% (LOW)
-- 7d Price Change: 15.10%
-- 30d Price Change: 23.79%
+- 7d Price Change: 14.89%
+- 30d Price Change: 23.98%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 472
+- CoinGecko Market Cap Rank: 471
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
