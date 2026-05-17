@@ -1,6 +1,6 @@
 {
-  "generated_at_utc": "2026-05-17T21:38:42.375062+00:00",
-  "built_at_utc": "2026-05-17T21:39:43.906096+00:00",
+  "generated_at_utc": "2026-05-17T22:37:31.038684+00:00",
+  "built_at_utc": "2026-05-17T22:38:33.259706+00:00",
   "project_count": 3,
   "items": [
     {
@@ -19,23 +19,23 @@
         "赛道竞争：新兴 perp DEX 抢占交易量",
         "监管风险：高杠杆衍生品政策不确定性"
       ],
-      "price_usd": 46.65,
-      "market_cap_usd": 11142014724,
-      "fdv_usd": 44976224126,
-      "volume_24h_usd": 479955364,
+      "price_usd": 46.68,
+      "market_cap_usd": 11114322516,
+      "fdv_usd": 44864440847,
+      "volume_24h_usd": 505847724,
       "market_cap_rank": 13,
-      "price_change_7d_pct": 9.7019,
-      "price_change_30d_pct": 4.72242,
+      "price_change_7d_pct": 9.75409,
+      "price_change_30d_pct": 4.77225,
       "circulating_supply": 238385315.9541414,
       "max_supply": 1000000000.0,
-      "fdv_to_mcap": 4.0366329824641864,
-      "volume_to_mcap_pct": 4.30761739136973,
+      "fdv_to_mcap": 4.036632982569461,
+      "volume_to_mcap_pct": 4.551314065898211,
       "circulating_ratio_pct": 23.838531595414143,
       "valuation_label": "WARN",
       "liquidity_label": "NORMAL",
       "valuation_note": "CoinGecko",
       "valuation_proxy": null,
-      "last_updated": "2026-05-17T21:37:54.821Z"
+      "last_updated": "2026-05-17T22:36:45.186Z"
     },
     {
       "symbol": "BNKR",
@@ -53,23 +53,23 @@
         "执行风险：平台真实采用率若不及预期，估值修复失效",
         "Base 生态竞争：同类发行/工具平台分流用户"
       ],
-      "price_usd": 0.00065323,
-      "market_cap_usd": 65344838,
-      "fdv_usd": 65344838,
-      "volume_24h_usd": 17568098,
-      "market_cap_rank": 416,
-      "price_change_7d_pct": 95.1074,
-      "price_change_30d_pct": 75.84664,
+      "price_usd": 0.00064606,
+      "market_cap_usd": 64603031,
+      "fdv_usd": 64603031,
+      "volume_24h_usd": 17718913,
+      "market_cap_rank": 421,
+      "price_change_7d_pct": 95.72571,
+      "price_change_30d_pct": 72.07982,
       "circulating_supply": 99999999999.99998,
       "max_supply": 100000000000.0,
       "fdv_to_mcap": 1.0,
-      "volume_to_mcap_pct": 26.88521165206653,
+      "volume_to_mcap_pct": 27.42737101607508,
       "circulating_ratio_pct": 99.99999999999999,
       "valuation_label": "OK",
       "liquidity_label": "HOT",
       "valuation_note": "CoinGecko",
       "valuation_proxy": null,
-      "last_updated": "2026-05-17T21:38:34.823Z"
+      "last_updated": "2026-05-17T22:37:03.721Z"
     },
     {
       "symbol": "CRCLX",
@@ -87,17 +87,17 @@
         "叙事切换风险：AI 支付热度下降影响估值",
         "竞品风险：稳定币支付与 RWA 赛道竞争加剧"
       ],
-      "price_usd": 111.26,
+      "price_usd": 110.27,
       "market_cap_usd": 23406990179.08723,
       "fdv_usd": 28136683997.689198,
-      "volume_24h_usd": 4378777,
-      "market_cap_rank": 463,
-      "price_change_7d_pct": -4.30586,
-      "price_change_30d_pct": 5.55101,
+      "volume_24h_usd": 4541591,
+      "market_cap_rank": 465,
+      "price_change_7d_pct": -5.16459,
+      "price_change_30d_pct": 4.72292,
       "circulating_supply": 504526.6974007987,
       "max_supply": null,
       "fdv_to_mcap": 1.202063305978898,
-      "volume_to_mcap_pct": 0.01870713392237922,
+      "volume_to_mcap_pct": 0.01940271246004813,
       "circulating_ratio_pct": null,
       "valuation_label": "OK",
       "liquidity_label": "LOW",
@@ -113,7 +113,7 @@
         "cik": "0001876042",
         "source": "stooq+user_share_override"
       },
-      "last_updated": "2026-05-17T21:38:36.130Z"
+      "last_updated": "2026-05-17T22:37:04.605Z"
     }
   ],
   "trade_review": {
