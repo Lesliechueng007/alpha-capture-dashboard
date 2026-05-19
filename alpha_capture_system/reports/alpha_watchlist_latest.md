@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-05-19T18:05:24.775133+00:00
+- Generated at (UTC): 2026-05-19T20:03:36.002147+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $48.49
-- Market Cap: $11.61B
-- FDV: $46.87B
+- Price: $48.72
+- Market Cap: $11.62B
+- FDV: $46.89B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $706.43M
-- 24h Volume/MCAP: 6.08% (NORMAL)
-- 7d Price Change: 21.31%
-- 30d Price Change: 15.47%
+- 24h Volume: $694.67M
+- 24h Volume/MCAP: 5.98% (NORMAL)
+- 7d Price Change: 20.53%
+- 30d Price Change: 17.28%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 12
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $51.20M
-- FDV: $51.20M
+- Market Cap: $54.25M
+- FDV: $54.25M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $10.95M
-- 24h Volume/MCAP: 21.38% (HOT)
-- 7d Price Change: 58.43%
-- 30d Price Change: 43.47%
+- 24h Volume: $12.26M
+- 24h Volume/MCAP: 22.59% (HOT)
+- 7d Price Change: 62.27%
+- 30d Price Change: 54.77%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 483
+- CoinGecko Market Cap Rank: 463
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $113.76
-- Market Cap: $23.40B
-- FDV: $28.13B
+- Price: $111.19
+- Market Cap: $22.99B
+- FDV: $27.64B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=113.98 @ 20260519, user-provided float/diluted shares)
-- 24h Volume: $21.54M
-- 24h Volume/MCAP: 0.09% (LOW)
-- 7d Price Change: -8.45%
-- 30d Price Change: 10.62%
+- Valuation Source: US Equity CRCL (price=111.99 @ 20260519, user-provided float/diluted shares)
+- 24h Volume: $21.87M
+- 24h Volume/MCAP: 0.10% (LOW)
+- 7d Price Change: -10.67%
+- 30d Price Change: 9.25%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 442
+- CoinGecko Market Cap Rank: 445
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
