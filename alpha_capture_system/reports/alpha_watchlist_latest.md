@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-05-21T20:12:00.952241+00:00
+- Generated at (UTC): 2026-05-21T21:49:43.270000+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $58.22
-- Market Cap: $13.86B
-- FDV: $55.93B
+- Price: $57.82
+- Market Cap: $13.79B
+- FDV: $55.66B
 - FDV/MCAP: 4.04 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.55B
-- 24h Volume/MCAP: 11.21% (NORMAL)
-- 7d Price Change: 30.91%
-- 30d Price Change: 49.41%
+- 24h Volume: $1.59B
+- 24h Volume/MCAP: 11.50% (NORMAL)
+- 7d Price Change: 29.86%
+- 30d Price Change: 47.05%
 - Circulating / Max Supply: 23.84%
 - CoinGecko Market Cap Rank: 11
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $50.22M
-- FDV: $50.22M
+- Market Cap: $49.99M
+- FDV: $49.99M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $6.07M
-- 24h Volume/MCAP: 12.08% (NORMAL)
-- 7d Price Change: 21.62%
-- 30d Price Change: 50.95%
+- 24h Volume: $6.45M
+- 24h Volume/MCAP: 12.89% (NORMAL)
+- 7d Price Change: 23.64%
+- 30d Price Change: 48.99%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 503
+- CoinGecko Market Cap Rank: 508
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $115.60
-- Market Cap: $23.64B
-- FDV: $28.42B
+- Price: $115.58
+- Market Cap: $23.60B
+- FDV: $28.37B
 - FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=115.14 @ 20260521, user-provided float/diluted shares)
-- 24h Volume: $18.39M
+- Valuation Source: US Equity CRCL (price=114.96 @ 20260521, user-provided float/diluted shares)
+- 24h Volume: $18.16M
 - 24h Volume/MCAP: 0.08% (LOW)
-- 7d Price Change: -7.15%
-- 30d Price Change: 17.95%
+- 7d Price Change: -6.35%
+- 30d Price Change: 20.14%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 450
+- CoinGecko Market Cap Rank: 448
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
