@@ -1,22 +1,22 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-06-06T20:08:31.701282+00:00
+- Generated at (UTC): 2026-06-06T21:17:35.630703+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $55.72
-- Market Cap: $12.38B
-- FDV: $53.18B
+- Price: $56.82
+- Market Cap: $12.63B
+- FDV: $54.24B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $637.22M
-- 24h Volume/MCAP: 5.15% (NORMAL)
-- 7d Price Change: -17.70%
-- 30d Price Change: 31.74%
+- 24h Volume: $609.81M
+- 24h Volume/MCAP: 4.83% (NORMAL)
+- 7d Price Change: -16.07%
+- 30d Price Change: 34.34%
 - Circulating / Max Supply: 22.24%
-- CoinGecko Market Cap Rank: 11
+- CoinGecko Market Cap Rank: 10
 
 ### Alpha Thesis
 - 协议交易手续费通过 Assistance Fund 自动换成 HYPE 并销毁，形成通缩锚。
@@ -33,17 +33,17 @@
 
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
-- Price: $0.0005
-- Market Cap: $53.76M
-- FDV: $53.76M
+- Price: $0.0006
+- Market Cap: $57.34M
+- FDV: $57.34M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $3.18M
-- 24h Volume/MCAP: 5.92% (NORMAL)
-- 7d Price Change: -20.88%
-- 30d Price Change: 55.15%
+- 24h Volume: $3.47M
+- 24h Volume/MCAP: 6.05% (NORMAL)
+- 7d Price Change: -20.42%
+- 30d Price Change: 64.17%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 418
+- CoinGecko Market Cap Rank: 408
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,15 +60,15 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $77.48
-- Market Cap: $40.53M
-- FDV: $233.42M
+- Price: $77.97
+- Market Cap: $40.76M
+- FDV: $234.73M
 - FDV/MCAP: 5.76 (RICH)
 - Valuation Source: CoinGecko (equity override failed: could not convert string to float: 'x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2')
-- 24h Volume: $6.19M
-- 24h Volume/MCAP: 15.28% (NORMAL)
-- 7d Price Change: -30.97%
-- 30d Price Change: -31.77%
+- 24h Volume: $5.44M
+- 24h Volume/MCAP: 13.34% (NORMAL)
+- 7d Price Change: -30.59%
+- 30d Price Change: -31.13%
 - Circulating / Max Supply: N/A
 - CoinGecko Market Cap Rank: 491
 
