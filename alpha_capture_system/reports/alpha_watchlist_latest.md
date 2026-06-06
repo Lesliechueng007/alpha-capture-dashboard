@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-06-05T23:12:39.251206+00:00
+- Generated at (UTC): 2026-06-06T01:23:55.082927+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $59.77
-- Market Cap: $13.30B
-- FDV: $57.14B
+- Price: $60.29
+- Market Cap: $13.44B
+- FDV: $57.70B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.64B
-- 24h Volume/MCAP: 12.31% (HOT)
-- 7d Price Change: -7.34%
-- 30d Price Change: 38.97%
+- 24h Volume: $1.59B
+- 24h Volume/MCAP: 11.85% (NORMAL)
+- 7d Price Change: -6.31%
+- 30d Price Change: 39.95%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $54.02M
-- FDV: $54.02M
+- Market Cap: $54.17M
+- FDV: $54.17M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $5.79M
-- 24h Volume/MCAP: 10.71% (NORMAL)
-- 7d Price Change: -7.79%
-- 30d Price Change: 48.86%
+- 24h Volume: $5.80M
+- 24h Volume/MCAP: 10.70% (NORMAL)
+- 7d Price Change: -13.70%
+- 30d Price Change: 49.40%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 418
+- CoinGecko Market Cap Rank: 419
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,15 +60,15 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $81.01
-- Market Cap: $16.48B
-- FDV: $19.81B
-- FDV/MCAP: 1.20 (OK)
-- Valuation Source: US Equity CRCL (price=80.28 @ 20260605, user-provided float/diluted shares)
-- 24h Volume: $15.66M
-- 24h Volume/MCAP: 0.09% (LOW)
-- 7d Price Change: -28.03%
-- 30d Price Change: -32.75%
+- Price: $80.59
+- Market Cap: $42.23M
+- FDV: $243.16M
+- FDV/MCAP: 5.76 (RICH)
+- Valuation Source: CoinGecko (equity override failed: could not convert string to float: 'x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2')
+- 24h Volume: $15.71M
+- 24h Volume/MCAP: 37.20% (HOT)
+- 7d Price Change: -28.31%
+- 30d Price Change: -32.76%
 - Circulating / Max Supply: N/A
 - CoinGecko Market Cap Rank: 487
 
