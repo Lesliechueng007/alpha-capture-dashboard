@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-06-06T13:42:53.176204+00:00
+- Generated at (UTC): 2026-06-06T15:01:14.192754+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $58.80
-- Market Cap: $13.06B
-- FDV: $56.11B
+- Price: $58.60
+- Market Cap: $13.05B
+- FDV: $56.02B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.05B
-- 24h Volume/MCAP: 8.06% (NORMAL)
-- 7d Price Change: -13.48%
-- 30d Price Change: 37.51%
+- 24h Volume: $983.47M
+- 24h Volume/MCAP: 7.54% (NORMAL)
+- 7d Price Change: -13.78%
+- 30d Price Change: 37.72%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $50.79M
-- FDV: $50.79M
+- Market Cap: $51.15M
+- FDV: $51.15M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $3.75M
-- 24h Volume/MCAP: 7.38% (NORMAL)
-- 7d Price Change: -19.83%
-- 30d Price Change: 41.10%
+- 24h Volume: $3.54M
+- 24h Volume/MCAP: 6.92% (NORMAL)
+- 7d Price Change: -23.64%
+- 30d Price Change: 45.26%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 439
+- CoinGecko Market Cap Rank: 436
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $77.91
-- Market Cap: $40.70M
-- FDV: $234.38M
+- Price: $78.03
+- Market Cap: $40.83M
+- FDV: $235.10M
 - FDV/MCAP: 5.76 (RICH)
 - Valuation Source: CoinGecko (equity override failed: could not convert string to float: 'x=Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2')
-- 24h Volume: $14.19M
-- 24h Volume/MCAP: 34.87% (HOT)
+- 24h Volume: $10.88M
+- 24h Volume/MCAP: 26.66% (HOT)
 - 7d Price Change: -30.98%
-- 30d Price Change: -35.18%
+- 30d Price Change: -34.51%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 494
+- CoinGecko Market Cap Rank: 491
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
