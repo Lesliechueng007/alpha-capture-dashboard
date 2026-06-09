@@ -1,22 +1,22 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-06-09T19:13:26.930399+00:00
+- Generated at (UTC): 2026-06-09T21:13:59.551323+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $58.97
-- Market Cap: $13.12B
-- FDV: $56.36B
+- Price: $59.32
+- Market Cap: $13.18B
+- FDV: $56.61B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $920.24M
-- 24h Volume/MCAP: 7.01% (NORMAL)
-- 7d Price Change: -18.52%
-- 30d Price Change: 35.89%
+- 24h Volume: $970.81M
+- 24h Volume/MCAP: 7.36% (NORMAL)
+- 7d Price Change: -15.30%
+- 30d Price Change: 39.48%
 - Circulating / Max Supply: 22.24%
-- CoinGecko Market Cap Rank: 10
+- CoinGecko Market Cap Rank: 11
 
 ### Alpha Thesis
 - 协议交易手续费通过 Assistance Fund 自动换成 HYPE 并销毁，形成通缩锚。
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $50.38M
-- FDV: $50.38M
+- Market Cap: $50.99M
+- FDV: $50.99M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $2.42M
-- 24h Volume/MCAP: 4.79% (NORMAL)
-- 7d Price Change: -12.63%
-- 30d Price Change: 50.73%
+- 24h Volume: $2.32M
+- 24h Volume/MCAP: 4.54% (NORMAL)
+- 7d Price Change: -9.00%
+- 30d Price Change: 53.98%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 456
+- CoinGecko Market Cap Rank: 448
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $81.49
-- Market Cap: $43.43M
-- FDV: $246.76M
-- FDV/MCAP: 5.68 (RICH)
+- Price: $81.32
+- Market Cap: $43.19M
+- FDV: $245.07M
+- FDV/MCAP: 5.67 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $11.28M
-- 24h Volume/MCAP: 25.97% (HOT)
-- 7d Price Change: -19.53%
-- 30d Price Change: -30.64%
+- 24h Volume: $11.51M
+- 24h Volume/MCAP: 26.66% (HOT)
+- 7d Price Change: -19.71%
+- 30d Price Change: -30.06%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 492
+- CoinGecko Market Cap Rank: 493
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
