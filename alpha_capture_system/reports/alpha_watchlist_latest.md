@@ -1,22 +1,22 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-06-12T22:06:55.356241+00:00
+- Generated at (UTC): 2026-06-12T23:50:20.306676+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $60.45
-- Market Cap: $13.45B
-- FDV: $57.74B
+- Price: $59.41
+- Market Cap: $13.22B
+- FDV: $56.78B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $869.74M
-- 24h Volume/MCAP: 6.47% (NORMAL)
-- 7d Price Change: 0.69%
-- 30d Price Change: 55.86%
+- 24h Volume: $865.63M
+- 24h Volume/MCAP: 6.55% (NORMAL)
+- 7d Price Change: -1.05%
+- 30d Price Change: 53.17%
 - Circulating / Max Supply: 22.24%
-- CoinGecko Market Cap Rank: 10
+- CoinGecko Market Cap Rank: 11
 
 ### Alpha Thesis
 - 协议交易手续费通过 Assistance Fund 自动换成 HYPE 并销毁，形成通缩锚。
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0005
-- Market Cap: $48.94M
-- FDV: $48.94M
+- Market Cap: $49.37M
+- FDV: $49.37M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $4.10M
-- 24h Volume/MCAP: 8.37% (NORMAL)
-- 7d Price Change: -6.43%
-- 30d Price Change: 14.84%
+- 24h Volume: $4.23M
+- 24h Volume/MCAP: 8.56% (NORMAL)
+- 7d Price Change: -7.10%
+- 30d Price Change: 8.42%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 463
+- CoinGecko Market Cap Rank: 461
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $78.47
-- Market Cap: $42.43M
-- FDV: $236.27M
+- Price: $78.23
+- Market Cap: $42.31M
+- FDV: $235.57M
 - FDV/MCAP: 5.57 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
 - 24h Volume: $10.12M
-- 24h Volume/MCAP: 23.84% (HOT)
-- 7d Price Change: -3.20%
-- 30d Price Change: -37.81%
+- 24h Volume/MCAP: 23.92% (HOT)
+- 7d Price Change: -3.47%
+- 30d Price Change: -38.16%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 501
+- CoinGecko Market Cap Rank: 500
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
