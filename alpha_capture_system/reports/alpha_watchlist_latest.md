@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-07-14T05:56:30.059595+00:00
+- Generated at (UTC): 2026-07-14T08:12:36.319943+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $63.78
-- Market Cap: $14.19B
-- FDV: $60.93B
+- Price: $63.41
+- Market Cap: $14.10B
+- FDV: $60.57B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $381.52M
-- 24h Volume/MCAP: 2.69% (NORMAL)
-- 7d Price Change: -9.13%
-- 30d Price Change: 5.52%
+- 24h Volume: $365.79M
+- 24h Volume/MCAP: 2.59% (NORMAL)
+- 7d Price Change: -10.54%
+- 30d Price Change: 5.57%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $34.16M
-- FDV: $34.16M
+- Market Cap: $34.54M
+- FDV: $34.54M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.47M
-- 24h Volume/MCAP: 4.31% (NORMAL)
-- 7d Price Change: -17.49%
-- 30d Price Change: -30.17%
-- Circulating / Max Supply: 100.30%
-- CoinGecko Market Cap Rank: 579
+- 24h Volume: $1.70M
+- 24h Volume/MCAP: 4.92% (NORMAL)
+- 7d Price Change: -16.66%
+- 30d Price Change: -28.68%
+- Circulating / Max Supply: 100.29%
+- CoinGecko Market Cap Rank: 569
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $62.73
-- Market Cap: $42.30M
-- FDV: $188.93M
+- Price: $62.47
+- Market Cap: $42.04M
+- FDV: $187.77M
 - FDV/MCAP: 4.47 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $7.33M
-- 24h Volume/MCAP: 17.33% (NORMAL)
-- 7d Price Change: -6.60%
-- 30d Price Change: -21.58%
+- 24h Volume: $7.32M
+- 24h Volume/MCAP: 17.40% (NORMAL)
+- 7d Price Change: -8.35%
+- 30d Price Change: -21.29%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 485
+- CoinGecko Market Cap Rank: 487
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
