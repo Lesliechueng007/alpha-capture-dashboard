@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-07-14T00:08:26.425583+00:00
+- Generated at (UTC): 2026-07-14T03:33:12.102285+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $63.22
-- Market Cap: $14.09B
-- FDV: $60.50B
+- Price: $62.77
+- Market Cap: $13.95B
+- FDV: $59.93B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $426.52M
-- 24h Volume/MCAP: 3.03% (NORMAL)
-- 7d Price Change: -11.06%
-- 30d Price Change: 4.13%
+- 24h Volume: $417.88M
+- 24h Volume/MCAP: 2.99% (NORMAL)
+- 7d Price Change: -11.92%
+- 30d Price Change: 3.54%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $33.92M
-- FDV: $33.92M
+- Market Cap: $34.14M
+- FDV: $34.14M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $2.04M
-- 24h Volume/MCAP: 6.01% (NORMAL)
-- 7d Price Change: -19.59%
-- 30d Price Change: -31.43%
-- Circulating / Max Supply: 100.23%
-- CoinGecko Market Cap Rank: 579
+- 24h Volume: $1.60M
+- 24h Volume/MCAP: 4.68% (NORMAL)
+- 7d Price Change: -18.06%
+- 30d Price Change: -30.38%
+- Circulating / Max Supply: 100.30%
+- CoinGecko Market Cap Rank: 576
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $62.37
-- Market Cap: $42.07M
-- FDV: $187.89M
+- Price: $62.03
+- Market Cap: $41.83M
+- FDV: $186.83M
 - FDV/MCAP: 4.47 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $8.47M
-- 24h Volume/MCAP: 20.14% (HOT)
-- 7d Price Change: -9.21%
-- 30d Price Change: -21.73%
+- 24h Volume: $7.37M
+- 24h Volume/MCAP: 17.61% (NORMAL)
+- 7d Price Change: -8.00%
+- 30d Price Change: -22.32%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 488
+- CoinGecko Market Cap Rank: 492
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
