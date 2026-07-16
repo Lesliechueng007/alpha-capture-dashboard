@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-07-16T12:09:06.902431+00:00
+- Generated at (UTC): 2026-07-16T14:22:12.468115+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $65.76
-- Market Cap: $14.64B
-- FDV: $62.87B
+- Price: $65.98
+- Market Cap: $14.68B
+- FDV: $63.05B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $421.54M
-- 24h Volume/MCAP: 2.88% (NORMAL)
-- 7d Price Change: -2.32%
-- 30d Price Change: -12.39%
+- 24h Volume: $399.77M
+- 24h Volume/MCAP: 2.72% (NORMAL)
+- 7d Price Change: -1.87%
+- 30d Price Change: -13.01%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -33,17 +33,17 @@
 
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
-- Price: $0.0003
-- Market Cap: $34.97M
-- FDV: $34.97M
+- Price: $0.0004
+- Market Cap: $35.10M
+- FDV: $35.10M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.38M
-- 24h Volume/MCAP: 3.95% (NORMAL)
-- 7d Price Change: -4.47%
-- 30d Price Change: -28.26%
+- 24h Volume: $1.35M
+- 24h Volume/MCAP: 3.84% (NORMAL)
+- 7d Price Change: -3.80%
+- 30d Price Change: -28.50%
 - Circulating / Max Supply: 100.24%
-- CoinGecko Market Cap Rank: 563
+- CoinGecko Market Cap Rank: 564
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $64.04
-- Market Cap: $45.34M
-- FDV: $193.09M
-- FDV/MCAP: 4.26 (RICH)
+- Price: $63.10
+- Market Cap: $44.69M
+- FDV: $190.08M
+- FDV/MCAP: 4.25 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $12.40M
-- 24h Volume/MCAP: 27.34% (HOT)
-- 7d Price Change: -0.02%
-- 30d Price Change: -23.82%
+- 24h Volume: $11.86M
+- 24h Volume/MCAP: 26.54% (HOT)
+- 7d Price Change: -0.65%
+- 30d Price Change: -23.11%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 458
+- CoinGecko Market Cap Rank: 474
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
