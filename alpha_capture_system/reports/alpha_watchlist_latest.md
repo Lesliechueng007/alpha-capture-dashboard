@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-07-25T08:51:05.405526+00:00
+- Generated at (UTC): 2026-07-25T10:26:10.592158+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $57.06
-- Market Cap: $12.69B
-- FDV: $57.05B
-- FDV/MCAP: 4.49 (WARN)
+- Price: $57.59
+- Market Cap: $12.81B
+- FDV: $55.02B
+- FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $286.28M
-- 24h Volume/MCAP: 2.26% (NORMAL)
-- 7d Price Change: -3.86%
-- 30d Price Change: -10.48%
+- 24h Volume: $284.68M
+- 24h Volume/MCAP: 2.22% (NORMAL)
+- 7d Price Change: -2.05%
+- 30d Price Change: -9.28%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -33,17 +33,17 @@
 
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
-- Price: $0.0004
-- Market Cap: $35.56M
-- FDV: $35.56M
+- Price: $0.0003
+- Market Cap: $34.58M
+- FDV: $34.58M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $2.17M
-- 24h Volume/MCAP: 6.11% (NORMAL)
-- 7d Price Change: 6.59%
-- 30d Price Change: -9.72%
+- 24h Volume: $2.15M
+- 24h Volume/MCAP: 6.22% (NORMAL)
+- 7d Price Change: 3.26%
+- 30d Price Change: -11.59%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 557
+- CoinGecko Market Cap Rank: 571
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $61.95
-- Market Cap: $46.74M
-- FDV: $186.57M
+- Price: $62.11
+- Market Cap: $46.87M
+- FDV: $187.07M
 - FDV/MCAP: 3.99 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $3.84M
-- 24h Volume/MCAP: 8.22% (NORMAL)
-- 7d Price Change: 1.93%
-- 30d Price Change: -15.16%
+- 24h Volume: $3.77M
+- 24h Volume/MCAP: 8.04% (NORMAL)
+- 7d Price Change: 2.53%
+- 30d Price Change: -14.36%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 449
+- CoinGecko Market Cap Rank: 448
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
