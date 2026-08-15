@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-08-15T19:45:42.705087+00:00
+- Generated at (UTC): 2026-08-15T20:21:07.935527+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $57.15
-- Market Cap: $12.71B
-- FDV: $57.13B
+- Price: $57.16
+- Market Cap: $12.72B
+- FDV: $57.15B
 - FDV/MCAP: 4.49 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $132.32M
-- 24h Volume/MCAP: 1.04% (LOW)
-- 7d Price Change: 4.27%
-- 30d Price Change: -9.05%
+- 24h Volume: $130.87M
+- 24h Volume/MCAP: 1.03% (LOW)
+- 7d Price Change: 3.95%
+- 30d Price Change: -8.28%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 10
 
@@ -34,14 +34,14 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0002
-- Market Cap: $23.60M
-- FDV: $23.60M
+- Market Cap: $23.56M
+- FDV: $23.56M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.59M
-- 24h Volume/MCAP: 6.74% (NORMAL)
-- 7d Price Change: -28.17%
-- 30d Price Change: -32.49%
+- 24h Volume: $1.58M
+- 24h Volume/MCAP: 6.70% (NORMAL)
+- 7d Price Change: -28.08%
+- 30d Price Change: -32.40%
 - Circulating / Max Supply: 100.00%
 - CoinGecko Market Cap Rank: 718
 
@@ -65,10 +65,10 @@
 - FDV: $216.67M
 - FDV/MCAP: 3.96 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $1.83M
-- 24h Volume/MCAP: 3.35% (NORMAL)
-- 7d Price Change: 5.29%
-- 30d Price Change: 15.28%
+- 24h Volume: $1.57M
+- 24h Volume/MCAP: 2.87% (NORMAL)
+- 7d Price Change: 5.13%
+- 30d Price Change: 17.16%
 - Circulating / Max Supply: N/A
 - CoinGecko Market Cap Rank: 394
 
