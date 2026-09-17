@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-09-17T14:42:29.087669+00:00
+- Generated at (UTC): 2026-09-17T18:35:13.556993+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $82.84
-- Market Cap: $18.43B
-- FDV: $79.13B
+- Price: $82.18
+- Market Cap: $18.31B
+- FDV: $78.62B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.18B
-- 24h Volume/MCAP: 6.42% (NORMAL)
-- 7d Price Change: 2.22%
-- 30d Price Change: 39.95%
+- 24h Volume: $1.16B
+- 24h Volume/MCAP: 6.34% (NORMAL)
+- 7d Price Change: 2.39%
+- 30d Price Change: 40.18%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 11
 
@@ -33,17 +33,17 @@
 
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
-- Price: $0.0003
-- Market Cap: $26.27M
-- FDV: $26.27M
+- Price: $0.0002
+- Market Cap: $24.19M
+- FDV: $24.19M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $4.47M
-- 24h Volume/MCAP: 17.03% (NORMAL)
-- 7d Price Change: 18.30%
-- 30d Price Change: 16.16%
+- 24h Volume: $4.19M
+- 24h Volume/MCAP: 17.31% (NORMAL)
+- 7d Price Change: 7.32%
+- 30d Price Change: 5.62%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 715
+- CoinGecko Market Cap Rank: 749
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $82.72
-- Market Cap: $72.90M
-- FDV: $265.86M
-- FDV/MCAP: 3.65 (RICH)
+- Price: $85.41
+- Market Cap: $75.95M
+- FDV: $275.39M
+- FDV/MCAP: 3.63 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $12.98M
-- 24h Volume/MCAP: 17.80% (NORMAL)
-- 7d Price Change: -9.98%
-- 30d Price Change: 14.53%
+- 24h Volume: $14.61M
+- 24h Volume/MCAP: 19.24% (NORMAL)
+- 7d Price Change: -6.24%
+- 30d Price Change: 19.17%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 345
+- CoinGecko Market Cap Rank: 331
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
