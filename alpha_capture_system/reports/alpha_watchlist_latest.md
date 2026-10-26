@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-10-26T09:17:53.203178+00:00
+- Generated at (UTC): 2026-10-26T16:14:49.413653+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $76.78
-- Market Cap: $17.08B
-- FDV: $73.36B
+- Price: $78.32
+- Market Cap: $17.44B
+- FDV: $74.88B
 - FDV/MCAP: 4.29 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $642.97M
-- 24h Volume/MCAP: 3.76% (NORMAL)
-- 7d Price Change: -3.96%
-- 30d Price Change: -16.42%
+- 24h Volume: $772.91M
+- 24h Volume/MCAP: 4.43% (NORMAL)
+- 7d Price Change: -0.41%
+- 30d Price Change: -15.34%
 - Circulating / Max Supply: 22.24%
 - CoinGecko Market Cap Rank: 11
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $32.07M
-- FDV: $32.07M
+- Market Cap: $31.82M
+- FDV: $31.82M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $998,074
-- 24h Volume/MCAP: 3.11% (NORMAL)
-- 7d Price Change: -11.35%
-- 30d Price Change: -30.16%
+- 24h Volume: $1.05M
+- 24h Volume/MCAP: 3.32% (NORMAL)
+- 7d Price Change: -11.20%
+- 30d Price Change: -31.19%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 615
+- CoinGecko Market Cap Rank: 613
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $83.23
-- Market Cap: $106.52M
-- FDV: $306.62M
-- FDV/MCAP: 2.88 (RICH)
+- Price: $80.33
+- Market Cap: $103.82M
+- FDV: $296.10M
+- FDV/MCAP: 2.85 (RICH)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $10.39M
-- 24h Volume/MCAP: 9.76% (NORMAL)
-- 7d Price Change: -1.89%
-- 30d Price Change: -5.38%
+- 24h Volume: $13.86M
+- 24h Volume/MCAP: 13.35% (NORMAL)
+- 7d Price Change: -3.23%
+- 30d Price Change: -9.79%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 263
+- CoinGecko Market Cap Rank: 269
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
