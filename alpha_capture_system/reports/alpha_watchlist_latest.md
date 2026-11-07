@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-11-07T10:08:11.215485+00:00
+- Generated at (UTC): 2026-11-07T16:26:00.001214+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $78.29
-- Market Cap: $18.74B
-- FDV: $74.49B
+- Price: $77.45
+- Market Cap: $18.54B
+- FDV: $73.70B
 - FDV/MCAP: 3.97 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $744.93M
-- 24h Volume/MCAP: 3.97% (NORMAL)
-- 7d Price Change: -10.18%
-- 30d Price Change: -10.17%
+- 24h Volume: $611.72M
+- 24h Volume/MCAP: 3.30% (NORMAL)
+- 7d Price Change: -11.39%
+- 30d Price Change: -7.13%
 - Circulating / Max Supply: 23.94%
 - CoinGecko Market Cap Rank: 11
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $26.85M
-- FDV: $26.85M
+- Market Cap: $25.91M
+- FDV: $25.91M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $886,365
-- 24h Volume/MCAP: 3.30% (NORMAL)
-- 7d Price Change: -6.57%
-- 30d Price Change: -24.92%
+- 24h Volume: $944,215
+- 24h Volume/MCAP: 3.64% (NORMAL)
+- 7d Price Change: -10.87%
+- 30d Price Change: -14.88%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 693
+- CoinGecko Market Cap Rank: 704
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,15 +60,15 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $67.59
-- Market Cap: $116.41M
-- FDV: $273.89M
+- Price: $67.34
+- Market Cap: $115.99M
+- FDV: $272.93M
 - FDV/MCAP: 2.35 (WARN)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $4.94M
-- 24h Volume/MCAP: 4.24% (NORMAL)
-- 7d Price Change: -7.60%
-- 30d Price Change: -16.04%
+- 24h Volume: $2.50M
+- 24h Volume/MCAP: 2.15% (NORMAL)
+- 7d Price Change: -7.54%
+- 30d Price Change: -15.19%
 - Circulating / Max Supply: N/A
 - CoinGecko Market Cap Rank: 238
 
