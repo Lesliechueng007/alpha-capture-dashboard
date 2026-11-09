@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-11-09T00:57:27.389375+00:00
+- Generated at (UTC): 2026-11-09T07:48:18.553472+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $74.96
-- Market Cap: $17.94B
-- FDV: $71.32B
+- Price: $73.03
+- Market Cap: $17.48B
+- FDV: $69.49B
 - FDV/MCAP: 3.97 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $696.97M
-- 24h Volume/MCAP: 3.88% (NORMAL)
-- 7d Price Change: -14.65%
-- 30d Price Change: -10.91%
+- 24h Volume: $878.31M
+- 24h Volume/MCAP: 5.02% (NORMAL)
+- 7d Price Change: -14.66%
+- 30d Price Change: -13.17%
 - Circulating / Max Supply: 23.94%
 - CoinGecko Market Cap Rank: 11
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0002
-- Market Cap: $24.79M
-- FDV: $24.79M
+- Market Cap: $24.41M
+- FDV: $24.41M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $865,754
-- 24h Volume/MCAP: 3.49% (NORMAL)
-- 7d Price Change: -7.99%
-- 30d Price Change: -23.47%
+- 24h Volume: $923,766
+- 24h Volume/MCAP: 3.78% (NORMAL)
+- 7d Price Change: -9.91%
+- 30d Price Change: -24.98%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 715
+- CoinGecko Market Cap Rank: 712
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $66.35
-- Market Cap: $114.43M
-- FDV: $268.92M
-- FDV/MCAP: 2.35 (WARN)
+- Price: $64.69
+- Market Cap: $111.52M
+- FDV: $268.10M
+- FDV/MCAP: 2.40 (WARN)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $2.55M
-- 24h Volume/MCAP: 2.23% (NORMAL)
-- 7d Price Change: -9.79%
-- 30d Price Change: -21.68%
+- 24h Volume: $3.26M
+- 24h Volume/MCAP: 2.92% (NORMAL)
+- 7d Price Change: -12.26%
+- 30d Price Change: -24.22%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 240
+- CoinGecko Market Cap Rank: 244
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
