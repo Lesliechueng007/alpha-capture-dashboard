@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-11-10T22:08:50.745857+00:00
+- Generated at (UTC): 2026-11-11T01:55:42.855440+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $72.69
-- Market Cap: $17.42B
-- FDV: $69.23B
+- Price: $72.09
+- Market Cap: $17.26B
+- FDV: $68.60B
 - FDV/MCAP: 3.97 (WARN)
 - Valuation Source: CoinGecko
 - 24h Volume: $1.26B
-- 24h Volume/MCAP: 7.23% (NORMAL)
-- 7d Price Change: -15.41%
-- 30d Price Change: -15.31%
+- 24h Volume/MCAP: 7.30% (NORMAL)
+- 7d Price Change: -14.11%
+- 30d Price Change: -17.02%
 - Circulating / Max Supply: 23.94%
 - CoinGecko Market Cap Rank: 11
 
@@ -34,16 +34,16 @@
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
 - Price: $0.0003
-- Market Cap: $25.25M
-- FDV: $25.25M
+- Market Cap: $25.80M
+- FDV: $25.80M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.46M
-- 24h Volume/MCAP: 5.80% (NORMAL)
-- 7d Price Change: -5.23%
-- 30d Price Change: -25.07%
+- 24h Volume: $1.56M
+- 24h Volume/MCAP: 6.04% (NORMAL)
+- 7d Price Change: -1.81%
+- 30d Price Change: -23.08%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 706
+- CoinGecko Market Cap Rank: 695
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $64.93
-- Market Cap: $114.44M
-- FDV: $270.99M
-- FDV/MCAP: 2.37 (WARN)
-- Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $7.45M
-- 24h Volume/MCAP: 6.51% (NORMAL)
-- 7d Price Change: -14.20%
-- 30d Price Change: -24.60%
+- Price: $65.32
+- Market Cap: $114.69M
+- FDV: $272.66M
+- FDV/MCAP: 2.38 (WARN)
+- Valuation Source: CoinGecko (equity override failed: <urlopen error timed out>)
+- 24h Volume: $7.54M
+- 24h Volume/MCAP: 6.57% (NORMAL)
+- 7d Price Change: -12.16%
+- 30d Price Change: -24.67%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 237
+- CoinGecko Market Cap Rank: 235
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
