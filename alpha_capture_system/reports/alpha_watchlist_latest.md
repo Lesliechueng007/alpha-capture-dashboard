@@ -1,20 +1,20 @@
 # Alpha Watchlist Snapshot
 
-- Generated at (UTC): 2026-11-12T12:42:26.063417+00:00
+- Generated at (UTC): 2026-11-12T20:28:27.888254+00:00
 
 ## Hyperliquid (HYPE)
 
 - Sector: derivatives
 - CoinGecko ID: hyperliquid
-- Price: $70.24
-- Market Cap: $16.82B
-- FDV: $66.83B
+- Price: $71.46
+- Market Cap: $17.11B
+- FDV: $67.99B
 - FDV/MCAP: 3.97 (WARN)
 - Valuation Source: CoinGecko
-- 24h Volume: $751.38M
-- 24h Volume/MCAP: 4.47% (NORMAL)
-- 7d Price Change: -14.76%
-- 30d Price Change: -14.36%
+- 24h Volume: $712.10M
+- 24h Volume/MCAP: 4.16% (NORMAL)
+- 7d Price Change: -8.46%
+- 30d Price Change: -12.22%
 - Circulating / Max Supply: 23.94%
 - CoinGecko Market Cap Rank: 10
 
@@ -33,17 +33,17 @@
 
 - Sector: base_ai_agent
 - CoinGecko ID: bankercoin-2
-- Price: $0.0003
-- Market Cap: $25.04M
-- FDV: $25.04M
+- Price: $0.0002
+- Market Cap: $24.31M
+- FDV: $24.31M
 - FDV/MCAP: 1.00 (OK)
 - Valuation Source: CoinGecko
-- 24h Volume: $1.52M
-- 24h Volume/MCAP: 6.07% (NORMAL)
-- 7d Price Change: -10.31%
-- 30d Price Change: -18.95%
+- 24h Volume: $1.15M
+- 24h Volume/MCAP: 4.74% (NORMAL)
+- 7d Price Change: -6.85%
+- 30d Price Change: -19.86%
 - Circulating / Max Supply: 100.00%
-- CoinGecko Market Cap Rank: 702
+- CoinGecko Market Cap Rank: 714
 
 ### Alpha Thesis
 - Base 链 AI Agent 发行与工具定位，若生态扩张将带来平台型网络效应。
@@ -60,17 +60,17 @@
 
 - Sector: stablecoin_ai_payment
 - CoinGecko ID: circle-xstock
-- Price: $64.45
-- Market Cap: $113.94M
-- FDV: $269.01M
-- FDV/MCAP: 2.36 (WARN)
+- Price: $64.17
+- Market Cap: $113.95M
+- FDV: $267.67M
+- FDV/MCAP: 2.35 (WARN)
 - Valuation Source: CoinGecko (equity override failed: HTTP Error 404: Not Found)
-- 24h Volume: $4.02M
-- 24h Volume/MCAP: 3.53% (NORMAL)
-- 7d Price Change: -14.32%
-- 30d Price Change: -22.71%
+- 24h Volume: $4.93M
+- 24h Volume/MCAP: 4.32% (NORMAL)
+- 7d Price Change: -7.04%
+- 30d Price Change: -23.86%
 - Circulating / Max Supply: N/A
-- CoinGecko Market Cap Rank: 238
+- CoinGecko Market Cap Rank: 239
 
 ### Alpha Thesis
 - 稳定币支付基础设施叠加 AI 支付叙事，具备跨场景扩张潜力。
